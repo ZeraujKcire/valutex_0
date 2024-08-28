@@ -1,0 +1,70 @@
+\usepackage{textcomp}
+\decimalpoint
+%------------Diseño de página --------------------------------
+\usepackage[centering, letterpaper,margin=2cm,top=1cm, headsep=24pt, headheight=2cm,includehead, includefoot]{geometry}
+
+%------------Colores----------------------
+
+\definecolor{principal}{RGB}{103, 190, 231}
+\definecolor{secundario}{RGB}{73, 82, 116}
+\definecolor{terciario}{RGB}{108,108,109}
+
+%--------------Hipervinculos en color, ligas-azul, archivos-magenta, url-azul----------------
+\hypersetup{
+    colorlinks=true,
+    linkcolor=secundario,
+    filecolor=magenta,      
+    urlcolor=blue}
+
+%-------------Encabezado---------------------
+\pagestyle{fancy}
+\fancyhf{}
+
+\chead{\begin{tabular}{m{14.2cm}m{2.5cm}}
+\rowcolor{principal}
+\includegraphics[width=4cm]{\rutaImagenes/logo_cp7_slp.pdf} &\\
+\end{tabular}
+}
+
+%--------------Pie de página------------------
+\cfoot{\textbf{\textcolor{principal}{\footnotesize{CORREDURIA PUBLICA 7}}}\\ \scriptsize{\textit{Lic. Marcelo del Castillo Lafuente, Corredor P\'ublico 7 de la Plaza de San Luis Potos\'i.,\\ Calle Fray Diego de la Magdalena N\'umero 1256\\Colonia Jard\'in, C.P. 78260, San Luis Potos\'i, San Luis Potos\'i}}}
+\rfoot{\footnotesize{\thepage\hspace{3pt}de 47}}
+
+
+%------------Títulos de seccion y subseccion--------------
+
+
+
+\renewcommand \thechapter {\Roman{chapter}}
+\renewcommand \thesection {\Alph{section}}
+\renewcommand \thesubsection {\thesection.\arabic{subsection}}
+\renewcommand \thesubsubsection {\thesection.\arabic{subsection}.\arabic{subsubsection}}
+
+\titleformat{\section}[hang]{\color{gray}\huge\bfseries}{\thesection.}{1em}{} 
+
+\chapterfont{\color{principal}}
+\sectionfont{\color{principal}}
+\subsectionfont{\color{secundario}}
+\subsubsectionfont{\color{terciario}}
+
+\titleformat{\chapter}[display]{\normalfont\Large\filcenter\sffamily}
+{\titlerule[1pt]%
+\vspace{1pt}%
+\titlerule
+\vspace{1pc}%
+\LARGE\MakeUppercase{\chaptertitlename} \thechapter}
+{1pc}
+{\titlerule
+\vspace{1pc}%
+\Huge}
+\titlespacing{\chapter}{0pt}{*-8}{*1.5}
+
+%------------------Profundidad del índice---------------------------
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+
+%------------------Marca de agua---------------
+
+\backgroundsetup{angle=0, contents={\includegraphics[width=4cm]{\rutaImagenes/logo_cp7_slp}},opacity=.2, scale=2}

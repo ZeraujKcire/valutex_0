@@ -1,0 +1,67 @@
+\newcommand{\insertar}{\colorbox{principal}{\textcolor{orange}{Insertar}}}
+%----------------------------Generales----------------------------
+\newcommand{\tipoAvaluo}{dictamen de valuaci\'on}
+\newcommand{\bienesValuados}{colecci\'on de 37 litografias}
+\newcommand{\lugarInforme}{Ciudad de M\'exico}
+
+%--------------------Fechas---------------------------
+\newcommand{\diainforme}{1} %dia del informe
+\newcommand{\mesinforme}{1} %mes del informe
+\newcommand{\annoinforme}{2021} %año del informe
+
+\newcommand{\diavalores}{1} %dia de valores
+\newcommand{\mesvalores}{1} %mes de valores
+\newcommand{\annovalores}{2021} %año de valores
+
+\newcommand{\diainspeccion}{4} %dia de inspeccion
+\newcommand{\mesinspeccion}{2} %mes de inspeccion
+\newcommand{\annoinspeccion}{2022} %año de inspeccion
+
+\newcommand{\fechaInforme}{\diainforme{} de \monthname[\mesinforme] de \annoinforme}
+\newcommand{\fechaValores}{\diavalores{} de \monthname[\mesvalores] de \annovalores}
+\newcommand{\fechaValoresCorto}{\diavalores/\mesvalores/\annovalores}
+\newcommand{\fechaInspeccion}{\diainspeccion{} de \monthname[\mesinspeccion] de \annoinspeccion}
+
+%----------------------------Perito Valuador---------------------
+\newcommand{\peritoValuador}{OctavioTrillo}
+\import{\rutaValuatex/documentos_modelo/peritos/peritos/}{\peritoValuador}
+
+%------------------------Perito Auxiliar-------------------
+\newcommand{\peritoAuxiliar}{DiegoPerezcamo}
+\ifthenelse{\equal{\peritoAuxiliar}{n/a}}{ }{\import{\rutaValuatex/documentos_modelo/peritos/auxiliares/}{\peritoAuxiliar}}
+
+%--------------Datos del solicitante-------------
+\newcommand{\empresaSolicitante}{\insertar}
+\newcommand{\empresaCorto}{\insertar}
+\newcommand{\rfcEmpresa}{\insertar}
+\newcommand{\personaSolicitante}{\insertar}
+\newcommand{\HMsolicitante}{M}
+\newcommand{\caracterSolicitante}{\insertar}
+
+%--------------Datos del propietario-------------
+\newcommand{\nombrePropietario}{\insertar}
+
+%-------------Vigencia----------------------------
+\newcommand{\vigenciaInforme}{1(Un) a\~no}
+
+%-------------Bienes sujeto de valuación---------
+
+\newcommand{\portafolioActivosIntangibles}{n/a}
+\newcommand{\negocioEnMarcha}{n/a}
+\newcommand{\capitalAccionario}{n/a}
+\newcommand{\activoIntangibleNegocio}{n/a}
+\newcommand{\activoIntangibleMarca}{n/a}
+\newcommand{\marca}{n/a}
+\newcommand{\maquinariaEquipo}{n/a}
+
+%---------------Ubicacion del bien sujeto de valuaci\'on
+\newcommand{\ubicacionBien}{Calle Constituci\'on N\'umero 124, Colonia Centro, Veracruz, Veracruz. C.P. 91700.}
+
+%------------Uso de la valuación---------------
+\newcommand{\usoAvaluo}{\insertar}
+%--------------Desarrollo del avalúo en la especie-------------------
+\newcommand{\EFde}{\insertar}
+\newcommand{\EFhasta}{\insertar}
+\newcommand{\EFdeHasta}{\insertar}
+
+

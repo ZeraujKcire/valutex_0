@@ -1,0 +1,40 @@
+\documentclass[10pt,letter]{report}
+\usepackage{import}
+\import{../../../../sistema/}{rutas}
+\input{preambulo}
+\input{disenno}
+\input{0.parametros_informe}
+\makenoidxglossaries
+
+%\import{\rutaValuatex/documentos_modelo/}{glosario}
+%\import{\rutaValuatex/documentos_modelo/}{acronimos}
+\input{../capitulo_3/9.3.glosario}
+\input{../capitulo_3/9.2.acronimos}
+
+\usepackage{pdfpages}
+
+\begin{document}
+
+% Renombrar sección a inciso
+\def\sectionautorefname{Inciso}
+\def\subsectionautorefname{Inciso}
+\def\subsubsectionautorefname{Inciso}
+
+
+\thispagestyle{plain}
+%\NoBgThispage
+%\includepdf[pages=-]{../0.portadas/portada}
+
+%-------------------------Índice-------------------------------
+\newpage
+\setcounter{page}{1}
+\thispagestyle{fancy}
+\tableofcontents
+
+\newpage
+
+
+\chapter{ANTECEDENTES.}\label{cap:1}
+\thispagestyle{fancy}
+%--------------------Datos del Valuador------------------
+\section{DATOS DEL PERITO VALUADOR}\label{sec:a}

@@ -1,0 +1,64 @@
+\usepackage{textcomp}
+\usepackage[letterpaper,margin=2.5cm, headsep=24pt, headheight=2cm]{geometry}
+
+%------------Colores----------------------
+
+\definecolor{principal}{RGB}{0, 53, 73}
+\definecolor{secundario}{RGB}{43, 82, 96}
+\definecolor{terciario}{RGB}{43,82,96}
+
+%--------------Hipervinculos en color, ligas-azul, archivos-magenta, url-azul----------------
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue}
+
+%-------------Encabezado---------------------
+\pagestyle{fancy}
+\fancyhf{}
+
+%\chead{\begin{tabular}{m{13.5cm}m{2.5cm}}
+%\rowcolor{principal}
+%&\\
+%\end{tabular}
+%}
+
+%--------------Pie de página------------------
+\cfoot{\textbf{\textcolor{principal}{\footnotesize{Corredur\'ia P\'ublica No.1 de la Plaza del Estado de Tabasco}}}\\ \scriptsize{\textit{Calle Fernando Montes de Oca n\'umero 406, planta baja. Colonia Lindavista,\\C.P. 86050, Villahermosa, Tabasco.\\Tel\'efono y fax 993 315 4610, Cel. 993 300 4468
+\\ \url{jareynes@prodigy.net.mx}; \url{jareynes54@gmail.com}}}}
+\rfoot{\footnotesize{\thepage\hspace{3pt}de \pageref{lastpage}}}
+%\lfoot{
+%\begin{tabular}{b{2cm}}
+%\includegraphics[width=1.5cm]{\rutaImagenes/qr}
+%\end{tabular}}
+
+%------------Títulos de seccionmy subseccion--------------
+
+
+
+\renewcommand \thechapter {\Roman{chapter}}
+\renewcommand \thesection {\Alph{section}}
+\renewcommand \thesubsection {\thesection.\arabic{subsection}}
+\renewcommand \thesubsubsection {\thesection.\arabic{subsection}.\arabic{subsubsection}}
+
+\chapterfont{\color{principal}}
+\titleformat{\section}[hang]{\color{gray}\huge\bfseries}{\thesection.}{1em}{} 
+\sectionfont{\color{principal}}
+\subsectionfont{\color{secundario}}
+\subsubsectionfont{\color{terciario}}
+
+
+%------------------Profundidad del índice---------------------------
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+
+%------------Márgenes--------------------
+
+\marginsize{2.5cm}{2cm}{1cm}{2cm}
+
+%------------------Marca de agua---------------
+
+\backgroundsetup{angle=0, contents={\includegraphics[width=4cm]{\rutaImagenes/isotipo_valuami.pdf}},opacity=.01, scale=1}

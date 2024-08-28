@@ -1,0 +1,35 @@
+\subsection{Opciones Reales.}
+
+Una opción real está presente en un proyecto de inversión cuando existe alguna posibilidad futura de actuación al conocerse la resolución de alguna incertidumbre actual.\\
+
+Una opción de compra (\textit{call}) es un contrato que proporciona a su poseedor (el comprador) el derecho (no la obligación) a comprar un número determinado de acciones, a un precio establecido, en cualquier momento antes de una fecha determinada (opción americana), o bien únicamente en esa fecha (opción europea). El comprador tiene la alternativa de poder ejercer o no su derecho, mientras que el vendedor está obligado a satisfacer el requerimiento del comprador.\\
+
+
+Una opción de venta (\textit{put}) es un contrato que proporciona a su poseedor (el comprador) el derecho (no la obligación) a vender un número determinado de acciones, a un precio establecido, en cualquier momento antes de una fecha determinada (opción americana), o bien únicamente en esa fecha (opción europea).\\
+
+Las fórmulas de valoración de opciones financieras se basan en el arbitraje (la posibilidad de formar una cartera réplica, esto es, que proporciona unos flujos idénticos a los de la opción financiera) y son muy exactas. Sin embargo las opciones reales no son casi nunca replicables, pero es posible modificar las fórmulas para tener en cuenta la no replicabilidad.\\
+
+Los problemas con los que nos encontramos al valorar opciones reales son:\\
+
+\begin{itemize}
+\item Dificultad para definir los parámetros necesarios para valorar las opciones reales.
+\item Dificultad para definir y cuantificar la volatilidad de las fuentes de incertidumbre.
+\item Dificultad para calibrar la exclusividad de la opción.
+\end{itemize}
+
+Estos tres factores hacen que la valoración de las opciones reales sea, en general, complicada. Además, es mucho más difícil comunicar la valoración de las opciones reales que la de un proyecto de inversión ordinario, por su mayor complejidad técnica.\\
+
+
+\subsubsection*{Métodos de valoración de opciones reales.}
+
+Las opciones reales se pueden valorar con los siguientes métodos:\\
+
+\begin{itemize}
+	\item Si son replicables, con la fórmula de Black y Scholes, con las fórmulas desarrolladas para valorar opciones exóticas23, por simulación, con la fórmula binomial o por resolución de las ecuaciones diferenciales que caracterizan las opciones.
+	
+\item Si no son replicables, por cualquiera de los métodos anteriores, pero teniendo en cuenta la no replicabilidad. Por ejemplo, no se puede aplicar directamente la fórmula de Black y Scholes, sino que se debe utilizar la fórmula modificada.
+
+\end{itemize}
+
+La valoración de una empresa o un proyecto que proporciona algún tipo de flexibilidad futura - opciones reales - no puede realizarse correctamente con las técnicas tradicionales de descuento de \textit{cash flows} futuros. El empleo del VAN, sin tener en cuenta la posibilidad de no ejercer la opción, conduciría a resultados erróneos y decisiones equivocadas.\\
+

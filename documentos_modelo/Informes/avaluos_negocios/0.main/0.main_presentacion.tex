@@ -1,0 +1,26 @@
+\documentclass[10pt,letter]{report}
+\usepackage{import}
+\import{../../../../sistema/}{rutas}
+\input{0.preambulo1}
+\input{0.disenno}
+\input{0.parametros_informe}
+\makenoidxglossaries
+
+
+\usepackage{pdfpages}
+
+\begin{document}
+
+% Renombrar sección a inciso
+\def\sectionautorefname{Inciso}
+\def\subsectionautorefname{Inciso}
+
+
+%\thispagestyle{plain}
+%\NoBgThispage
+%\includepdf[pages=-]{../0.portadas/portada}
+
+
+\input{0.presentacion_capital_accionario}
+
+\end{document}

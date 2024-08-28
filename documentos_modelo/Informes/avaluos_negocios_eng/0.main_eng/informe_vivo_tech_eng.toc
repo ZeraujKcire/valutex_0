@@ -1,0 +1,42 @@
+\contentsline {chapter}{\numberline {I}BACKGROUND.}{2}{chapter.1}%
+\contentsline {section}{\numberline {A}EXPERT APPRAISER INFORMATION}{2}{section.1.1}%
+\contentsline {section}{\numberline {B}APPLICANT INFORMATION}{2}{section.1.2}%
+\contentsline {chapter}{\numberline {II}DATA OF THE ASSET SUBJECT TO VALUATION}{3}{chapter.2}%
+\contentsline {section}{\numberline {C}OWNER'S INFORMATION}{3}{section.2.3}%
+\contentsline {section}{\numberline {D}TYPE OF VALUATION SERVICE}{3}{section.2.4}%
+\contentsline {section}{\numberline {E}REPORT VALIDITY}{3}{section.2.5}%
+\contentsline {section}{\numberline {F}DESCRIPTION OF THE VALUATION SUBJECT}{3}{section.2.6}%
+\contentsline {section}{\numberline {G}LOCATION OF THE VALUATION SUBJECT}{3}{section.2.7}%
+\contentsline {section}{\numberline {H}VALUATION PURPOSE}{3}{section.2.8}%
+\contentsline {section}{\numberline {I}VALUATION USE}{3}{section.2.9}%
+\contentsline {chapter}{\numberline {III}LEGAL BASIS AND PRELIMINARY CONSIDERATIONS.}{4}{chapter.3}%
+\contentsline {section}{\numberline {J}PRIOR CONSIDERATIONS FOR VALUATION}{7}{section.3.10}%
+\contentsline {subsection}{\numberline {J.1}Conditions, Restrictions, and Limitations of the Report:}{7}{subsection.3.10.1}%
+\contentsline {subsection}{\numberline {J.2}VALUATION APPROACHES}{9}{subsection.3.10.2}%
+\contentsline {subsubsection}{\numberline {J.2.1}Asset Approach}{9}{subsubsection.3.10.2.1}%
+\contentsline {subsubsection}{\numberline {J.2.2}Market Approach}{9}{subsubsection.3.10.2.2}%
+\contentsline {subsubsection}{\numberline {J.2.3}Income Approach}{10}{subsubsection.3.10.2.3}%
+\contentsline {chapter}{\numberline {IV}METHODOLOGY EMPLOYED}{12}{chapter.4}%
+\contentsline {section}{\numberline {K}DESCRPTION OF APPLIED VALUATION APPROACHES.}{12}{section.4.11}%
+\contentsline {subsection}{\numberline {K.1}ESTIMATION OF FAIR VALUE:}{12}{subsection.4.11.1}%
+\contentsline {subsection}{\numberline {K.2}POTENTIAL VALUE WITH INTERNAL OPPORTUNITIES.}{12}{subsection.4.11.2}%
+\contentsline {section}{Semblanza y An\IeC {\'a}lisis de Industria.}{17}{figure.4.7}%
+\contentsline {chapter}{\numberline {V}DEVELOPMENT OF THE APPRAISAL.}{24}{chapter.5}%
+\contentsline {subsection}{\numberline {K.1}DEVELOPMENT OF THE VALUATION.}{24}{subsection.5.11.1}%
+\contentsline {subsubsection}{\numberline {K.1.1}Financial Analysis}{24}{subsubsection.5.11.1.1}%
+\contentsline {subsubsection}{\numberline {K.1.2}Estimation of the Discount Rate Ke.}{26}{subsubsection.5.11.1.2}%
+\contentsline {subsubsection}{\numberline {K.1.3}RELATIVE VALUATION METHOD.}{29}{subsubsection.5.11.1.3}%
+\contentsline {subsection}{\numberline {K.2}Value of the Business by PEERS.}{30}{subsection.5.11.2}%
+\contentsline {subsection}{\numberline {K.3}APPLICATION OF THE DIRECT CAPITALIZATION METHOD. Through the income approach.}{30}{subsection.5.11.3}%
+\contentsline {subsection}{\numberline {K.4}WEIGHTED FAIR VALUE OF THE ONGOING BUSINESS, WITH FIGURES AS OF 12/31/2023.}{31}{subsection.5.11.4}%
+\contentsline {subsection}{\numberline {K.5}FAIR VALUE OF EQUITY CAPITAL, WITH FIGURES AS OF 12/31/2023}{31}{subsection.5.11.5}%
+\contentsline {subsection}{\numberline {K.6}Fair Value per Share.}{31}{subsection.5.11.6}%
+\contentsline {section}{\numberline {L}INSPECTION DATE}{32}{section.5.12}%
+\contentsline {section}{\numberline {M}REFERENCE DATE FOR VALUE}{32}{section.5.13}%
+\contentsline {section}{\numberline {N}VALUATION REPORT DATE}{32}{section.5.14}%
+\contentsline {section}{\numberline {O}SOURCES OF INFORMATION}{32}{section.5.15}%
+\contentsline {section}{\numberline {P}PRELIMINARY CONSIDERATIONS BEFORE CONCLUSION}{33}{section.5.16}%
+\contentsline {chapter}{\numberline {VI}CONCLUSIONS.}{34}{chapter.6}%
+\contentsline {section}{\numberline {Q}VALUATION CONCLUSION.}{34}{section.6.17}%
+\contentsline {section}{\numberline {R}PHOTOGRAPHIC REPORT}{35}{section.6.18}%
+\contentsline {section}{\numberline {S}APPENDIX}{35}{section.6.19}%

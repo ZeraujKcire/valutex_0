@@ -1,0 +1,188 @@
+\documentclass[10pt,letter]{report}
+\usepackage{import}
+\import{../../../sistema/}{rutas}
+\input{0.preambulo1}
+\input{0.disenno}
+\input{0.parametros_informe}
+\makenoidxglossaries
+
+%\import{\rutaValuatex/documentos_modelo/}{glosario}
+%\import{\rutaValuatex/documentos_modelo/}{acronimos}
+%\input{../j.consideraciones_previas/glosario}
+%\input{../j.consideraciones_previas/acronimos}
+
+\usepackage{pdfpages}
+
+\begin{document}
+
+% Renombrar sección a inciso
+\def\sectionautorefname{Inciso}
+\def\subsectionautorefname{Inciso}
+
+
+\thispagestyle{plain}
+%\includepdf[pages=-]{portada}
+
+%-------------------------Índice-------------------------------
+\newpage
+\setcounter{page}{1}
+\thispagestyle{fancy}
+\tableofcontents
+
+\newpage
+
+
+\chapter{ANTECEDENTES.}\label{cap:1}
+\thispagestyle{fancy}
+%--------------------Datos del Valuador------------------
+\section{DATOS DEL PERITO VALUADOR}\label{sec:a}
+\input{../a.datos_perito/a.datos_perito_y_auxiliar}
+
+%------------------Datos del solicitante-----------------
+\section{DATOS DEL SOLICITANTE}\label{sec:b}
+\input{../b.datos_solicitante/b.datos_solicitante}
+
+\espacio{3cm}
+
+\chapter{DATOS DEL BIEN SUJETO DE VALUACI\'ON}\label{cap:2}
+\thispagestyle{fancy}
+\setcounter{section}{2}
+%-----------------Datos del Propietario----------------
+\section{DATOS DEL PROPIETARIO}\label{sec:c}}
+\input{../c.datos_propietario/c.datos_propietario_arte}
+
+%-----------------Tipo de servicio de valuación------
+\section{TIPO DE SERVICIO DE VALUACI\'ON}\label{sec:d}
+\input{../d.tipo_servicio_valuacion/d.servicio_valuacion}
+
+%-----------------Vigencia-----------------------------
+\section{VIGENCIA DEL INFORME}\label{sec:e}
+\input{../e.vigencia/e.vigencia_arte}
+
+
+%---------------Descripción de los bienes Sujetos de valuación-----------
+\section{DESCRIPCI\'ON DE LOS BIENES SUJETOS DE VALUACI\'ON}\label{sec:f}
+\input{../f.descripcion_bienes/f.arte}
+
+%-----------------Ubicación del bien sujeto de valuavión
+\section{UBICACI\'ON DE LOS BIENES SUJETOS DE VALUACI\'ON}\label{sec:g}
+\input{../g.ubicacion/g.ubicacion}
+
+%-----------------Propósito----------------------
+\section{PROP\'OSITO DE LA VALUACI\'ON}\label{sec:h}
+\input{../h.proposito/h.arte}
+
+%------------------Uso de la valuación---------------
+\section{USO DE LA VALUACI\'ON}\label{sec:i}
+\input{../i.uso/i.uso_valuacion}
+
+\espacio{4cm}
+
+\chapter{FUNDAMENTO JUR\'IDICO Y CONSIDERACIONES PREVIAS.}\label{cap:3}
+\thispagestyle{fancy}
+\setcounter{section}{9}
+
+\section*{FUNDAMENTO JUR\'IDICO.}\label{sec:juridico}
+El presente an\'alisis, as\'i como las opiniones y conclusiones del suscrito valuador fueron desarrolladas de conformidad con el art\'iculo 6 Fracci\'on II de la LFCP, el art\'iculo 56 bis de su reglamento, los lineamientos internacionales de valuaci\'on.\\
+
+A continuaci\'on se mencionan diversos fundamentos de la normatividad mexicana que se relacionan con los informes de valuaci\'on:\\
+
+\input{../j.consideraciones_previas/1.codigo_comercio}
+\input{../j.consideraciones_previas/2.ley_federal_correduria_publica}
+\input{../j.consideraciones_previas/3.reglamento_lfcp_56_bis}
+\input{../j.consideraciones_previas/4.acuerdo}
+%\input{j.consideraciones_previas/5.procedimiento_pt-ue}
+\espacio{1cm}
+
+%---------------Consideraciones previas a la valuaci\'on--------------------
+\section{CONSIDERACIONES PREVIAS A LA VALUACI\'ON}\label{sec:j}
+
+	\subsection{Condiciones, restricciones y limitantes del informe}
+	\input{../j.consideraciones_previas/6.condiciones_restricciones_arte}
+	%\input{j.consideraciones_previas/7.conceptos_generales}
+	
+	
+	
+	\subsection{Enfoques de Valuaci\'on}
+	\input{j.consideraciones_previas/8.enfoques_valuacion}
+
+\espacio{7cm}
+%	\input{j.consideraciones_previas/9.acronimos}
+%	
+%	\begin{center}
+% 	\printnoidxglossary[type=\acronymtype,title={Acr\'onimos}]
+%	\printnoidxglossary
+%	\end{center}
+	
+	
+\chapter{METODOLOG\'IA DE VALUACI\'ON.}\label{cap:4}
+\thispagestyle{fancy}
+
+Se llev\'o a cabo la valuaci\'on del bien mencionado en el \autoref{cap:2} inciso \autoref{sec:f} de este informe; mismo que se explica a continuaci\'on:
+
+%-----------------------Descripci\'on de los enfoques de valuaci\'on aplicados-------------
+\setcounter{section}{10}
+\section{DESCRIPCI\'ON DE LOS ENFOQUES DE VALUACI\'ON APLICADOS.}\label{sec:k}
+
+\renewcommand\thefigure{\arabic{figure}} 
+
+\input{../k.1.descripcion_enfoques/metodologias_de_valuacion_arte}
+
+
+
+\chapter{DESARROLLO DE LA VALUACI\'ON}\label{cap:5}
+\thispagestyle{fancy}
+
+%-----------------------Desarrollo del avalúo en la especie------------------------------------
+\setcounter{section}{11}
+
+\subsection{DESARROLLO DEL AVAL\'UO EN LA ESPECIE.}\label{sec:k2}
+
+\subsubsection{An\'alisis Financiero}
+\input{../k.2.desarrollo_avaluo/k.2.8.arte}
+
+\espacio{1cm}
+
+%-----------------------FECHA DE INSPECCIÓN---------------------
+\section{FECHA DE INSPECCI\'ON}\label{sec:l}
+\fechaInspeccion.
+
+%------------------------FECHA DE VALORES------------------------
+\section{FECHA DE VALORES}\label{sec:m}
+Fecha de valores al \fechaValores.
+
+%-----------------------FECHA DEL INFORME-----------------------
+\section{FECHA DEL INFORME}\label{sec:n}
+Fecha del informe, \fechaInforme.
+
+%----------------------FUENTES DE INFORMACIÓN--------------
+\section{FUENTES DE INFORMACI\'ON}\label{sec:nn}
+\begin{itemize}
+	\input{../nn.fuentes_de_informacion/nn.fuentes_de_informacion}
+	%\fuentes
+\end{itemize}
+%-----------------------CONSIDERACIONES PREVIAS A LA CONCLUSI\'ON------------------
+\section{CONSIDERACIONES PREVIAS A LA CONCLUSI\'ON}\label{sec:o}
+\input{../o.previas_conclusion/o.previas_conclusion}
+
+\espacio{7cm}
+\chapter{CONCLUSIONES.}\label{cap:6}
+\thispagestyle{fancy}
+%-----------------------CONCLUSIÓN DE LA VALUACIÓN-----------------------
+\setcounter{section}{16}
+\section{CONCLUSI\'ON DE LA VALUACI\'ON.}\label{sec:p}
+\input{../p.conclusiones/p.conclusiones_arte}
+
+\input{../p.conclusiones/p.firma_2}
+
+%----------------------REPORTE FOTOGRAFICO------------------------------
+\section{REPORTE FOTOGR\'AFICO}\label{sec:q}
+No Aplica.
+%---------------------ANEXOS-------------------------------------------------------- 
+\section{ANEXOS}\label{sec:r}
+
+\newpage
+
+
+\label{lastpage}
+\end{document}

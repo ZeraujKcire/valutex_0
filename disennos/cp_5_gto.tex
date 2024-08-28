@@ -1,0 +1,69 @@
+\usepackage{textcomp}
+\decimalpoint
+%------------Diseño de página --------------------------------
+\usepackage[centering, letterpaper,margin=2cm,top=1cm, headsep=24pt, headheight=2cm,includehead, includefoot]{geometry}
+
+%------------Colores----------------------
+
+\definecolor{principal}{RGB}{50, 90, 110}
+\definecolor{secundario}{RGB}{70, 115, 130}
+\definecolor{terciario}{RGB}{70,115,130}
+
+%--------------Hipervinculos en color, ligas-azul, archivos-magenta, url-azul----------------
+\hypersetup{
+    colorlinks=true,
+    linkcolor=secundario,
+    filecolor=magenta,      
+    urlcolor=blue}
+
+%-------------Encabezado---------------------
+\pagestyle{fancy}
+\fancyhf{}
+
+\lhead{
+\includegraphics[width=5cm]{\rutaImagenes/logo_cp5_gto} 
+}
+
+%--------------Pie de página------------------
+\cfoot{\textbf{\textcolor{principal}{\footnotesize{Lic. Laura Adriana Pérez Cornejo / Correduría Pública No. 5}}}\\ \scriptsize{\textit{Blvd. José María Morelos, No. 5495 Int. 38\\ Co. Rancho Viejo, C.P. 37358, León, Gto., México \\ Tel. 477 2924501}}}}
+\rfoot{\footnotesize{\thepage\hspace{3pt}de \pageref{lastpage}}}
+
+
+%------------Títulos de seccion y subseccion--------------
+
+
+
+\renewcommand \thechapter {\Roman{chapter}}
+\renewcommand \thesection {\Alph{section}}
+\renewcommand \thesubsection {\thesection.\arabic{subsection}}
+\renewcommand \thesubsubsection {\thesection.\arabic{subsection}.\arabic{subsubsection}}
+
+\titleformat{\section}[hang]{\color{gray}\huge\bfseries}{\thesection.}{1em}{} 
+
+\chapterfont{\color{principal}}
+\sectionfont{\color{principal}}
+\subsectionfont{\color{secundario}}
+\subsubsectionfont{\color{terciario}}
+
+\titleformat{\chapter}[display]{\normalfont\Large\filcenter\sffamily}
+{\titlerule[1pt]%
+\vspace{1pt}%
+\titlerule
+\vspace{1pc}%
+\LARGE\MakeUppercase{\chaptertitlename} \thechapter}
+{1pc}
+{\titlerule
+\vspace{1pc}%
+\Huge}
+\titlespacing{\chapter}{0pt}{*-8}{*1.5}
+
+%------------------Profundidad del índice---------------------------
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+
+%------------------Marca de agua---------------
+
+\backgroundsetup{angle=0, contents={\includegraphics[width=21.5cm]{\rutaImagenes/logo_cp5_gto}},opacity=.3, scale=1}
+

@@ -1,0 +1,30 @@
+\documentclass[12pt]{article}
+\usepackage[paperheight=8in,paperwidth=5.5in,margin=0in]{geometry}
+\usepackage[dvipsnames,prologue,table]{pstricks}
+\usepackage{graphicx}
+\usepackage{pst-grad}
+\usepackage{pst-ghsb}
+\usepackage{pst-slpe}
+
+%=========Colores=============
+\definecolor{principal}{RGB}{27, 88, 102}
+\definecolor{secundario}{RGB}{65, 173, 195}
+\definecolor{terciario}{RGB}{235, 128, 42}
+
+
+
+\begin{document}
+\thispagestyle{empty}
+
+\psset{unit=1in}
+\psset{fillstyle=gradient,linestyle=none,gradbegin=Maroon,
+gradend=Dandelion,gradangle=45,gradlines=2048}
+
+\begin{pspicture}(13.24in,9in)
+
+\psframe(0,0)(13.24, 9)
+
+
+
+\end{pspicture}
+\end{document}

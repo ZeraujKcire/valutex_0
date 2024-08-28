@@ -1,0 +1,54 @@
+\begin{flushright}
+Huixquilucan, Estado de M\'exico, a \fechaCotizacion.
+\end{flushright}
+\vspace{1cm}
+
+\begin{flushleft}
+\textcolor{principal}{\nombreEmpresa}\\
+At'n: \nombreInteresado\\
+%\puesto\\
+Cliente: \textcolor{principal}{\cliente}\\[1cm]
+
+\Large\textbf{\textcolor{principal}{Presente.}}\\[1cm]
+\end{flushleft}
+
+En atenci\'on a su solicitud respecto del servicio de \textcolor{principal}{\tipoServicio} de los siguientes actos jur\'idicos:
+
+\begin{itemize}
+\actosJuridicos
+\ifthenelse{\equal{\RUG}{1}}{\item Inscripci\'on en el Registro \'Unico de Garant\'ias Mobiliarias (``RUG'')}{ }
+
+\end{itemize}
+\input{calculos}
+\textbf{\textcolor{principal}{TARIFA DE SERVICIOS}}
+\begin{itemize}
+	\item Ratificaci\'on de firmas de \theactos{} \ifthenelse{\theactos=1}{acto juridico \rule{6.5cm}{.4pt}}{actos juridicos (\$\numprint[MXN]{\costoRatificacion}{} c/u) \rule{2.5cm}{.4pt}} \$\numprint[MXN]{\totalFirmas}{} + IVA\\
+	\ifthenelse{\descuento=0}{ }{\textcolor{principal}{\textbf{Descuento \empresaCorto{} (\descuento\%)\rule{5cm}{.4pt}\$\numprint[MXN]{\descuentoFirmas}}}}
+	
+	\ifthenelse{\RUG=0}{ }{
+	\item \ifthenelse{\theactos=1}{\theactos{} inscripci\'on al RUG \rule{9cm}{.4pt}}{\theactos{} inscripciones al RUG (\$\numprint[MXN]{\costoRUG}{} c/u) \rule{5.5cm}{.4pt}}  \$\numprint[MXN]{\totalRUG}{} + IVA}\\
+	\ifthenelse{\descuento=0\and\RUG=1}{ }{\textcolor{principal}{\textbf{Descuento \empresaCorto{} (\descuento\%)\rule{5cm}{.4pt}\$\numprint[MXN]{\descuentoRUG}}}}
+	  \ifthenelse{\equal{\Extra}{n/a}}{ }{\item \Extra \rule{8cm}{.4pt} \$\numprint[MXN]{\costoExtra} + IVA}
+	\begin{flushright}
+		\textbf{\textcolor{principal}{Sub-total: \$\numprint[MXN]{\subtotal} + IVA}}
+	\end{flushright}
+
+\end{itemize}
+
+\begin{flushright}
+	\textbf{\underline{\textcolor{principal}{Total: \$\numprint[MXN]{\total}}}}
+\end{flushright}
+
+\textcolor{secundario}{Datos Bancarios:} Asesor\'ia Mercantil Integral S.C.- BBVA Bancomer.- Cuenta:  \textbf{\textcolor{secundario}{0192389517}}.- No. Cuenta Clabe: 012180001923895173.- Total con impuestos: \textcolor{secundario}{\$\numprint[MXN]{\total} .}
+
+
+\begin{center}
+Agradeciendo de antemano su preferencia, quedo a sus \'ordenes.\\
+\textbf{Atentamente.}\\
+\includegraphics[width=4cm]{\rutaImagenes/firma_diego}
+%\includegraphics[width=2cm]{\rutaImagenes/qr}
+
+\textbf{Diego M. Perezcano Beltr\'an}
+
+\end{center}
+

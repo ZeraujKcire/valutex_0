@@ -1,0 +1,37 @@
+\usepackage{textcomp}
+\usepackage[letterpaper,margin=2.5cm, headsep=24pt, headheight=2cm]{geometry}
+
+%------------Colores----------------------
+
+\definecolor{principal}{RGB}{0, 53, 73}
+\definecolor{secundario}{RGB}{43, 82, 96}
+\definecolor{terciario}{RGB}{127,141,144}
+
+%--------------Hipervinculos en color, ligas-azul, archivos-magenta, url-azul----------------
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue}
+
+%-------------Encabezado---------------------
+\pagestyle{fancy}
+\fancyhf{}
+
+\chead{\begin{tabular}{m{5.2cm}m{5cm}m{5cm}}
+\rowcolor{principal}
+&\includegraphics[width=5cm]{\rutaImagenes/logovaluaminew.pdf} &\includegraphics[width=5cm]{\rutaImagenes/logoaminew.pdf}\\
+\end{tabular}
+}
+
+%--------------Pie de página------------------
+\cfoot{\textbf{\textcolor{principal}{\footnotesize{VALUAMI\tiny\textregistered/ \footnotesize ASESOR\'IA MERCANTIL INTEGRAL, S.C.}}}\\ \scriptsize{\textit{Montes Urales 755 Piso 5, Col. Lomas de Chapultepec, Miguel Hidalgo, CDMX, C.P. 11000.\\ Telefono (55)41616060 ext.248 / Cel. (55) 54 17 18 46.\\ \url{www.linkedin.com/in/valuadordenegocios/}}}}
+
+
+%------------Márgenes--------------------
+
+\marginsize{2.5cm}{2cm}{1cm}{2cm}
+
+%------------------Marca de agua---------------
+
+\backgroundsetup{angle=0, contents={\includegraphics[width=4cm]{\rutaImagenes/logovaluaminew.pdf}},opacity=.3, scale=3}

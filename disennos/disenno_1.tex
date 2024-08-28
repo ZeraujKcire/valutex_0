@@ -1,0 +1,56 @@
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue}
+
+
+
+
+%---------Configuración de cuadros para columnas----------------
+\mdfsetup{
+linewidth=0pt,%
+leftmargin=0cm,
+rightmargin=0cm,
+innerleftmargin=0pt,
+innerrightmargin=0pt
+}
+
+%----Configuración de decorativos en los bordes de la página Estilo Esteban----
+%\pagestyle{fancy}
+%\fancyhf{}
+%\chead{\includegraphics[scale=0.3]{/imagenes/LogoInnovaluacion.png}\\\includegraphics[scale=0.2]{/imagenes/LogoVALUAMI.png}}
+%\rhead{\includegraphics[scale=0.2]{/imagenes/LogoAMI.png}}
+%\lhead{\includegraphics[scale=0.2]{/imagenes/LogoNYU.png}}
+%\cfoot{Página \thepage\hspace{3pt}de \pageref{LastPage}}
+
+%-------------Estilo 2---------------------
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\begin{tabular}{lm{2cm}}\footnotesize&\multirow{4}{*}{\includegraphics[width=2cm]{/Users/pasca/Documents/proyectosami/valuatex1.0/imagenes/logoami.pdf}}\\\textcolor{gray}{\footnotesize \textcolor{principal}{Fecha de Dictamen:} 30/09/2020}&\\\textcolor{gray}{\footnotesize \textcolor{principal}{Fecha de Valores:} 30/09/2020}&\\ & \end{tabular}}
+\chead{\includegraphics[width=4cm]{/Users/pasca/Documents/proyectosami/valuatex1.0/imagenes/logovaluami.pdf}}
+\lhead{\textcolor{principal}{\small AVAL\'UO DE NEGOCIO EN MARCHA}\\ \textcolor{gray}{\small FAPREI, S.A. de C.V.}\\ \url{https://www.inmediprest.com.mx/}}
+%\chead{\color{principal}{\textit{\textbf{Aval\'uo de Negocio en Marcha y Capital Accionario }}}}
+\cfoot{\textbf{\textcolor{principal}{\footnotesize{VALUAMI\textregistered / ASESOR\'IA MERCANTIL INTEGRAL, S.C.}}}\\ \scriptsize{\textit{Montes Urales 755 Piso 5, Col. Lomas de Chapultepec, Miguel Hidalgo, CDMX, C.P. 11000.\\ Telefono (55)41616060 ext.248 / Cel. (55) 54 17 18 46.\\ \url{www.linkedin.com/in/valuadordenegocios/}}}}
+
+
+%-------------Decorativos para páginas de capítulo--------------
+\fancypagestyle{plain}{%
+  %\fancyhf{}%
+%  \cfoot{Página \thepage\hspace{3pt}de \pageref{LastPage}}
+  %\renewcommand{\headrulewidth}{0pt}% Line at the header invisible
+  %\renewcommand{\footrulewidth}{0.4pt}% Line at the footer visible
+}
+
+%------------Tamaño de letra de títulos de capítulo-------------
+\chaptertitlefont{\huge\color{gray}}
+\chapterfont{\color{gray}}
+\titleformat{\chapter}[hang] 
+{\color{gray}\huge\bfseries}{\chaptertitlename\ \thechapter.}{1em}{} 
+
+%------------Colores----------------------
+
+\definecolor{principal}{RGB}{27, 88, 102}
+\definecolor{secundario}{RGB}{65, 173, 195}
+\definecolor{terciario}{RGB}{235, 128, 42}
+

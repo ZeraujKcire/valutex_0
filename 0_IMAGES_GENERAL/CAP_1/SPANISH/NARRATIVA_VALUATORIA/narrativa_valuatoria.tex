@@ -1,0 +1,17 @@
+\documentclass[tikz]{standalone}
+
+\begin{document}
+
+\begin{tikzpicture}[scale=4]
+	\draw [ultra thick]                                             (90 :1) 
+	to node [midway,sloped,above] {High Growth \& Low Risk}         (210:1) 
+	to node [midway,sloped,below] {Low Risk \& Reinvestment}        (330:1) 
+	to node [midway,sloped,above] {High Growth \& Low Reinvestment} cycle;
+	\node at (0,0) {\bfseries \huge \shortstack{Value \\ Narrative}};
+	\node [above=1mm]   at (90 :1) {\bfseries \large Growth};
+	\node [below left]  at (210:1) {\bfseries \large Risk};
+	\node [below right] at (330:1) {\bfseries \large Reinvestment};
+	\foreach \n in {0,...,2} \fill (90+\n*120:1) circle (1pt);
+\end{tikzpicture}
+
+\end{document}

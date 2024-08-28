@@ -1,0 +1,64 @@
+\usepackage{textcomp}
+\decimalpoint
+%------------Diseño de página --------------------------------
+\usepackage[centering, letterpaper,margin=2cm,top=1cm, headsep=24pt, headheight=2.5cm,includehead, includefoot]{geometry}
+
+%------------Colores----------------------
+
+\definecolor{principal}{RGB}{56, 94, 90}
+\definecolor{secundario}{RGB}{56, 94, 90}
+\definecolor{terciario}{RGB}{122,0,16}
+
+%--------------Hipervinculos en color, ligas-azul, archivos-magenta, url-azul----------------
+\hypersetup{
+    colorlinks=true,
+    linkcolor=secundario,
+    filecolor=magenta,      
+    urlcolor=blue}
+
+%-------------Encabezado---------------------
+\pagestyle{fancy}
+\fancyhf{}
+
+\chead{}
+
+%--------------Pie de página------------------
+\cfoot{}
+\rfoot{}
+\lfoot{}
+
+%------------Títulos de seccion y subseccion--------------
+
+\renewcommand \thechapter {\Roman{chapter}}
+\renewcommand \thesection {Capítulo \Roman{section}}
+\renewcommand \thesubsection {\thesection.\Alpha{subsection}}
+\renewcommand \thesubsubsection {\thesection.\Alpha{subsection}.\arabic{subsubsection}}
+
+\titleformat{\section}[hang]{\color{gray}\huge\bfseries}{\thesection.}{1em}{} 
+
+\chapterfont{\color{principal}}
+\sectionfont{\color{principal}}
+\subsectionfont{\color{principal}}
+\subsubsectionfont{\color{principal}}
+
+\titleformat{\chapter}[display]{\normalfont\Large\filcenter\sffamily}
+{%\titlerule[1pt]%
+\vspace{1pt}%
+%\titlerule
+\vspace{1pc}%
+\LARGE\MakeUppercase{\chaptertitlename} \thechapter}
+{1pc}
+{%\titlerule
+\vspace{1pc}%
+\Huge}
+\titlespacing{\chapter}{0pt}{*-8}{*1.5}
+
+%------------------Profundidad del índice---------------------------
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+
+%------------------Marca de agua---------------
+
+\backgroundsetup{angle=0, contents={\includegraphics[width=1.2\textwidth]{\rutaImagenes/bg_tasvaluo}},opacity=1, scale=1}

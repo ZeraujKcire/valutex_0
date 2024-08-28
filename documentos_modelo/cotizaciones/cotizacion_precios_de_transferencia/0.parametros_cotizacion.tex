@@ -1,0 +1,39 @@
+
+%----------------------------Generales----------------------------
+\newcommand{\tipoAvaluo}{insertar}
+\newcommand{\bienesValuados}{insertar}
+\newcommand{\lugarInforme}{insertar}
+
+%--------------------Fechas---------------------------
+\newcommand{\diainforme}{insertar} %dia del informe
+\newcommand{\mesinforme}{insertar} %mes del informe
+\newcommand{\annoinforme}{insertar} %año del informe
+
+\newcommand{\diavalores}{insertar} %dia de valores
+\newcommand{\mesvalores}{insertar} %mes de valores
+\newcommand{\annovalores}{insertar} %año de valores
+
+\newcommand{\diainspeccion}{insertar} %dia de inspeccion
+\newcommand{\mesinspeccion}{insertar} %mes de inspeccion
+\newcommand{\annoinspeccion}{insertar} %año de inspeccion
+
+\newcommand{\fechaInforme}{\diainforme{} de \monthname[\mesinforme] de \annoinforme}
+\newcommand{\fechaValores}{\diavalores{} de \monthname[\mesvalores] de \annovalores}
+\newcommand{\fechaValoresCorto}{\diavalores/\mesvalores/\annovalores}
+\newcommand{\fechaInspeccion}{\diainspeccion{} de \monthname[\mesinspeccion] de \annoinspeccion}
+
+%----------------------------Perito Valuador---------------------
+\newcommand{\peritoValuador}{DiegoPerezcano}
+\import{\rutaValuatex/documentos_modelo/peritos/peritos/}{\peritoValuador}
+
+%------------------------Perito Auxiliar-------------------
+\newcommand{\peritoAuxiliar}{DiegoPerezcano}
+\ifthenelse{\equal{\peritoAuxiliar}{n/a}}{ }{\import{\rutaValuatex/documentos_modelo/peritos/auxiliares/}{\peritoAuxiliar}}
+
+%--------------Datos del solicitante-------------
+\newcommand{\empresaSolicitante}{insertar}
+\newcommand{\empresaCorto}{insertar}
+\newcommand{\rfcEmpresa}{insertar}
+\newcommand{\personaSolicitante}{insertar}
+\newcommand{\caracterSolicitante}{insertar}
+

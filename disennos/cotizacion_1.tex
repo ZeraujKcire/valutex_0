@@ -1,0 +1,33 @@
+\usepackage{textcomp}
+\usepackage[letterpaper,margin=2.5cm, headsep=24pt, headheight=2cm]{geometry}
+
+%--------------Hipervinculos en color, ligas-azul, archivos-magenta, url-azul----------------
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue}
+
+%-------------Encabezado---------------------
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\includegraphics[width=2cm]{/Users/pasca/Documents/proyectosami/valuatex1.0/imagenes/logoami.pdf}}
+\chead{\includegraphics[width=4cm]{/Users/pasca/Documents/proyectosami/valuatex1.0/imagenes/logovaluami.pdf}}
+\lhead{Propuesta: \numeropropuesta}
+
+%--------------Pie de página------------------
+\cfoot{\textbf{\textcolor{principal}{\footnotesize{VALUAMI\tiny\textregistered/ \footnotesize ASESOR\'IA MERCANTIL INTEGRAL, S.C.}}}\\ \scriptsize{\textit{Montes Urales 755 Piso 5, Col. Lomas de Chapultepec, Miguel Hidalgo, CDMX, C.P. 11000.\\ Telefono (55)41616060 ext.248 / Cel. (55) 54 17 18 46.\\ \url{www.linkedin.com/in/valuadordenegocios/}}}}
+
+%------------Colores----------------------
+
+\definecolor{principal}{RGB}{27, 88, 102}
+\definecolor{secundario}{RGB}{65, 173, 195}
+\definecolor{terciario}{RGB}{235, 128, 42}
+
+%------------Márgenes--------------------
+
+\marginsize{2.5cm}{2cm}{1cm}{2cm}
+
+%------------------Marca de agua---------------
+
+\backgroundsetup{angle=0, contents={\includegraphics[width=4cm]{/Users/pasca/Documents/proyectosami/valuatex1.0/imagenes/logovaluami.pdf}},opacity=.3, scale=3}

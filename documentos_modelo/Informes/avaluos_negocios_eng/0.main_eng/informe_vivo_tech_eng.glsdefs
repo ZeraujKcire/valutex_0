@@ -1,0 +1,1290 @@
+\ifglsentryexists{cagr}{}%
+{%
+\gls@defglossaryentry{cagr}%
+{%
+name={CAGR},%
+sort={CAGR},%
+type={acronym},%
+first={Tasa compuesta de crecimiento anual\glsspace (CAGR)},%
+firstplural={Tasa compuesta de crecimiento anual\acrpluralsuffix \glsspace (CAGR\acrpluralsuffix )},%
+text={CAGR},%
+plural={CAGR\acrpluralsuffix },%
+description={Tasa compuesta de crecimiento anual},%
+descriptionplural={Tasa compuesta de crecimiento anual\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Tasa compuesta de crecimiento anual},%
+longplural={Tasa compuesta de crecimiento anuals},%
+short={CAGR},%
+shortplural={CAGRs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{capm}{}%
+{%
+\gls@defglossaryentry{capm}%
+{%
+name={CAPM},%
+sort={CAPM},%
+type={acronym},%
+first={CAPITAL ASSET PRICING MODEL\glsspace (CAPM)},%
+firstplural={CAPITAL ASSET PRICING MODEL\acrpluralsuffix \glsspace (CAPM\acrpluralsuffix )},%
+text={CAPM},%
+plural={CAPM\acrpluralsuffix },%
+description={CAPITAL ASSET PRICING MODEL},%
+descriptionplural={CAPITAL ASSET PRICING MODEL\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={CAPITAL ASSET PRICING MODEL},%
+longplural={CAPITAL ASSET PRICING MODELs},%
+short={CAPM},%
+shortplural={CAPMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{chic}{}%
+{%
+\gls@defglossaryentry{chic}%
+{%
+name={CHIC},%
+sort={CHIC},%
+type={acronym},%
+first={Sociedades de Inversi\'on Cerradas\glsspace (CHIC)},%
+firstplural={Sociedades de Inversi\'on Cerradas\acrpluralsuffix \glsspace (CHIC\acrpluralsuffix )},%
+text={CHIC},%
+plural={CHIC\acrpluralsuffix },%
+description={Sociedades de Inversi\'on Cerradas},%
+descriptionplural={Sociedades de Inversi\'on Cerradas\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Sociedades de Inversi\'on Cerradas},%
+longplural={Sociedades de Inversi\'on Cerradass},%
+short={CHIC},%
+shortplural={CHICs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{crp}{}%
+{%
+\gls@defglossaryentry{crp}%
+{%
+name={CRP},%
+sort={CRP},%
+type={acronym},%
+first={Riesgo Pa\'is\glsspace (CRP)},%
+firstplural={Riesgo Pa\'is\acrpluralsuffix \glsspace (CRP\acrpluralsuffix )},%
+text={CRP},%
+plural={CRP\acrpluralsuffix },%
+description={Riesgo Pa\'is},%
+descriptionplural={Riesgo Pa\'is\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Riesgo Pa\'is},%
+longplural={Riesgo Pa\'iss},%
+short={CRP},%
+shortplural={CRPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{dcf}{}%
+{%
+\gls@defglossaryentry{dcf}%
+{%
+name={DCF},%
+sort={DCF},%
+type={acronym},%
+first={Flujo de efectivo descontado (Discounted Cash FLow)\glsspace (DCF)},%
+firstplural={Flujo de efectivo descontado (Discounted Cash FLow)\acrpluralsuffix \glsspace (DCF\acrpluralsuffix )},%
+text={DCF},%
+plural={DCF\acrpluralsuffix },%
+description={Flujo de efectivo descontado (Discounted Cash FLow)},%
+descriptionplural={Flujo de efectivo descontado (Discounted Cash FLow)\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Flujo de efectivo descontado (Discounted Cash FLow)},%
+longplural={Flujo de efectivo descontado (Discounted Cash FLow)s},%
+short={DCF},%
+shortplural={DCFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{erp}{}%
+{%
+\gls@defglossaryentry{erp}%
+{%
+name={ERP},%
+sort={ERP},%
+type={acronym},%
+first={Premio de Mercado\glsspace (ERP)},%
+firstplural={Premio de Mercado\acrpluralsuffix \glsspace (ERP\acrpluralsuffix )},%
+text={ERP},%
+plural={ERP\acrpluralsuffix },%
+description={Premio de Mercado},%
+descriptionplural={Premio de Mercado\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Premio de Mercado},%
+longplural={Premio de Mercados},%
+short={ERP},%
+shortplural={ERPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{etr}{}%
+{%
+\gls@defglossaryentry{etr}%
+{%
+name={ETR},%
+sort={ETR},%
+type={acronym},%
+first={Tasa Fiscal Efectiva\glsspace (ETR)},%
+firstplural={Tasa Fiscal Efectiva\acrpluralsuffix \glsspace (ETR\acrpluralsuffix )},%
+text={ETR},%
+plural={ETR\acrpluralsuffix },%
+description={Tasa Fiscal Efectiva},%
+descriptionplural={Tasa Fiscal Efectiva\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Tasa Fiscal Efectiva},%
+longplural={Tasa Fiscal Efectivas},%
+short={ETR},%
+shortplural={ETRs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{fcff}{}%
+{%
+\gls@defglossaryentry{fcff}%
+{%
+name={FCFF},%
+sort={FCFF},%
+type={acronym},%
+first={Flujo de efectivo libre a la Firma (Free Cash Flow to Firm)\glsspace (FCFF)},%
+firstplural={Flujo de efectivo libre a la Firma (Free Cash Flow to Firm)\acrpluralsuffix \glsspace (FCFF\acrpluralsuffix )},%
+text={FCFF},%
+plural={FCFF\acrpluralsuffix },%
+description={Flujo de efectivo libre a la Firma (Free Cash Flow to Firm)},%
+descriptionplural={Flujo de efectivo libre a la Firma (Free Cash Flow to Firm)\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Flujo de efectivo libre a la Firma (Free Cash Flow to Firm)},%
+longplural={Flujo de efectivo libre a la Firma (Free Cash Flow to Firm)s},%
+short={FCFF},%
+shortplural={FCFFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{fcfe}{}%
+{%
+\gls@defglossaryentry{fcfe}%
+{%
+name={FCFE},%
+sort={FCFE},%
+type={acronym},%
+first={Flujo de efectivo libre al Capital (Free Cash Flow to Equity)\glsspace (FCFE)},%
+firstplural={Flujo de efectivo libre al Capital (Free Cash Flow to Equity)\acrpluralsuffix \glsspace (FCFE\acrpluralsuffix )},%
+text={FCFE},%
+plural={FCFE\acrpluralsuffix },%
+description={Flujo de efectivo libre al Capital (Free Cash Flow to Equity)},%
+descriptionplural={Flujo de efectivo libre al Capital (Free Cash Flow to Equity)\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Flujo de efectivo libre al Capital (Free Cash Flow to Equity)},%
+longplural={Flujo de efectivo libre al Capital (Free Cash Flow to Equity)s},%
+short={FCFE},%
+shortplural={FCFEs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{g}{}%
+{%
+\gls@defglossaryentry{g}%
+{%
+name={G},%
+sort={G},%
+type={acronym},%
+first={Tasa de Crecimiento de ingresos netos (Grow Rate)\glsspace (G)},%
+firstplural={Tasa de Crecimiento de ingresos netos (Grow Rate)\acrpluralsuffix \glsspace (G\acrpluralsuffix )},%
+text={G},%
+plural={G\acrpluralsuffix },%
+description={Tasa de Crecimiento de ingresos netos (Grow Rate)},%
+descriptionplural={Tasa de Crecimiento de ingresos netos (Grow Rate)\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Tasa de Crecimiento de ingresos netos (Grow Rate)},%
+longplural={Tasa de Crecimiento de ingresos netos (Grow Rate)s},%
+short={G},%
+shortplural={Gs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ke}{}%
+{%
+\gls@defglossaryentry{ke}%
+{%
+name={Ke},%
+sort={Ke},%
+type={acronym},%
+first={Costo de Capital Accionario\glsspace (Ke)},%
+firstplural={Costo de Capital Accionario\acrpluralsuffix \glsspace (Ke\acrpluralsuffix )},%
+text={Ke},%
+plural={Ke\acrpluralsuffix },%
+description={Costo de Capital Accionario},%
+descriptionplural={Costo de Capital Accionario\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Costo de Capital Accionario},%
+longplural={Costo de Capital Accionarios},%
+short={Ke},%
+shortplural={Kes},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{kd}{}%
+{%
+\gls@defglossaryentry{kd}%
+{%
+name={Kd},%
+sort={Kd},%
+type={acronym},%
+first={Costo de la deuda\glsspace (Kd)},%
+firstplural={Costo de la deuda\acrpluralsuffix \glsspace (Kd\acrpluralsuffix )},%
+text={Kd},%
+plural={Kd\acrpluralsuffix },%
+description={Costo de la deuda},%
+descriptionplural={Costo de la deuda\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Costo de la deuda},%
+longplural={Costo de la deudas},%
+short={Kd},%
+shortplural={Kds},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{kpi}{}%
+{%
+\gls@defglossaryentry{kpi}%
+{%
+name={KPI},%
+sort={KPI},%
+type={acronym},%
+first={Indicador clave de desempe\~no o indicadores de gesti\'on \protect \textit  {(Key Performance Indicator)}\glsspace (KPI)},%
+firstplural={Indicador clave de desempe\~no o indicadores de gesti\'on \textit {(Key Performance Indicator)}\acrpluralsuffix \glsspace (KPI\acrpluralsuffix )},%
+text={KPI},%
+plural={KPI\acrpluralsuffix },%
+description={Indicador clave de desempe\~no o indicadores de gesti\'on \textit {(Key Performance Indicator)}},%
+descriptionplural={Indicador clave de desempe\~no o indicadores de gesti\'on \textit {(Key Performance Indicator)}\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Indicador clave de desempe\~no o indicadores de gesti\'on \protect \textit  {(Key Performance Indicator)}},%
+longplural={Indicador clave de desempe\~no o indicadores de gesti\'on \protect \textit  {(Key Performance Indicator)}s},%
+short={KPI},%
+shortplural={KPIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mpeem}{}%
+{%
+\gls@defglossaryentry{mpeem}%
+{%
+name={MPEEM},%
+sort={MPEEM},%
+type={acronym},%
+first={Multi-Period Excess Earnings Method\glsspace (MPEEM)},%
+firstplural={Multi-Period Excess Earnings Method\acrpluralsuffix \glsspace (MPEEM\acrpluralsuffix )},%
+text={MPEEM},%
+plural={MPEEM\acrpluralsuffix },%
+description={Multi-Period Excess Earnings Method},%
+descriptionplural={Multi-Period Excess Earnings Method\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Multi-Period Excess Earnings Method},%
+longplural={Multi-Period Excess Earnings Methods},%
+short={MPEEM},%
+shortplural={MPEEMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nav}{}%
+{%
+\gls@defglossaryentry{nav}%
+{%
+name={NAV},%
+sort={NAV},%
+type={acronym},%
+first={Valor neto de activos\glsspace (NAV)},%
+firstplural={Valor neto de activos\acrpluralsuffix \glsspace (NAV\acrpluralsuffix )},%
+text={NAV},%
+plural={NAV\acrpluralsuffix },%
+description={Valor neto de activos},%
+descriptionplural={Valor neto de activos\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Valor neto de activos},%
+longplural={Valor neto de activoss},%
+short={NAV},%
+shortplural={NAVs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nca}{}%
+{%
+\gls@defglossaryentry{nca}%
+{%
+name={NCA},%
+sort={NCA},%
+type={acronym},%
+first={Activo No Corriente\glsspace (NCA)},%
+firstplural={Activo No Corriente\acrpluralsuffix \glsspace (NCA\acrpluralsuffix )},%
+text={NCA},%
+plural={NCA\acrpluralsuffix },%
+description={Activo No Corriente},%
+descriptionplural={Activo No Corriente\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Activo No Corriente},%
+longplural={Activo No Corrientes},%
+short={NCA},%
+shortplural={NCAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nwc}{}%
+{%
+\gls@defglossaryentry{nwc}%
+{%
+name={NWC},%
+sort={NWC},%
+type={acronym},%
+first={Capital de Trabajo Neto\glsspace (NWC)},%
+firstplural={Capital de Trabajo Neto\acrpluralsuffix \glsspace (NWC\acrpluralsuffix )},%
+text={NWC},%
+plural={NWC\acrpluralsuffix },%
+description={Capital de Trabajo Neto},%
+descriptionplural={Capital de Trabajo Neto\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Capital de Trabajo Neto},%
+longplural={Capital de Trabajo Netos},%
+short={NWC},%
+shortplural={NWCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{peers}{}%
+{%
+\gls@defglossaryentry{peers}%
+{%
+name={PEERS},%
+sort={PEERS},%
+type={acronym},%
+first={M\'ultiplos de Cotizaci\'on\glsspace (PEERS)},%
+firstplural={M\'ultiplos de Cotizaci\'on\acrpluralsuffix \glsspace (PEERS\acrpluralsuffix )},%
+text={PEERS},%
+plural={PEERS\acrpluralsuffix },%
+description={M\'ultiplos de Cotizaci\'on},%
+descriptionplural={M\'ultiplos de Cotizaci\'on\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={M\'ultiplos de Cotizaci\'on},%
+longplural={M\'ultiplos de Cotizaci\'ons},%
+short={PEERS},%
+shortplural={PEERSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rfr}{}%
+{%
+\gls@defglossaryentry{rfr}%
+{%
+name={RFR},%
+sort={RFR},%
+type={acronym},%
+first={M\'etodo de Flujo de Ahorro en Regalias\glsspace (RFR)},%
+firstplural={M\'etodo de Flujo de Ahorro en Regalias\acrpluralsuffix \glsspace (RFR\acrpluralsuffix )},%
+text={RFR},%
+plural={RFR\acrpluralsuffix },%
+description={M\'etodo de Flujo de Ahorro en Regalias},%
+descriptionplural={M\'etodo de Flujo de Ahorro en Regalias\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={M\'etodo de Flujo de Ahorro en Regalias},%
+longplural={M\'etodo de Flujo de Ahorro en Regaliass},%
+short={RFR},%
+shortplural={RFRs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{wacc}{}%
+{%
+\gls@defglossaryentry{wacc}%
+{%
+name={WACC},%
+sort={WACC},%
+type={acronym},%
+first={Weighted Average Costo of Capital\glsspace (WACC)},%
+firstplural={Weighted Average Costo of Capital\acrpluralsuffix \glsspace (WACC\acrpluralsuffix )},%
+text={WACC},%
+plural={WACC\acrpluralsuffix },%
+description={Weighted Average Costo of Capital},%
+descriptionplural={Weighted Average Costo of Capital\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Weighted Average Costo of Capital},%
+longplural={Weighted Average Costo of Capitals},%
+short={WACC},%
+shortplural={WACCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{wara}{}%
+{%
+\gls@defglossaryentry{wara}%
+{%
+name={WARA},%
+sort={WARA},%
+type={acronym},%
+first={Weighted Average Return on Assets\glsspace (WARA)},%
+firstplural={Weighted Average Return on Assets\acrpluralsuffix \glsspace (WARA\acrpluralsuffix )},%
+text={WARA},%
+plural={WARA\acrpluralsuffix },%
+description={Weighted Average Return on Assets},%
+descriptionplural={Weighted Average Return on Assets\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Weighted Average Return on Assets},%
+longplural={Weighted Average Return on Assetss},%
+short={WARA},%
+shortplural={WARAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{beta}{}%
+{%
+\gls@defglossaryentry{beta}%
+{%
+name={Beta ($\beta $)},%
+sort={Beta ($\beta $)},%
+type={main},%
+first={Beta ($\beta $)},%
+firstplural={Betas},%
+text={Beta ($\beta $)},%
+plural={Betas},%
+description={El coeficiente Beta ($\beta $) es una medida de volatilidad que estima el riesgo sistem\'atico de un activo},%
+descriptionplural={El coeficiente Beta ($\beta $) es una medida de volatilidad que estima el riesgo sistem\'atico de un activo},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cashNeq}{}%
+{%
+\gls@defglossaryentry{cashNeq}%
+{%
+name={Cash \& Eq},%
+sort={Cash \& Eq},%
+type={main},%
+first={Cash \& Eq},%
+firstplural={Cash \& Eqs},%
+text={Cash \& Eq},%
+plural={Cash \& Eqs},%
+description={Efectivo y equivalentes},%
+descriptionplural={Efectivo y equivalentes},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{efectivetaxrate}{}%
+{%
+\gls@defglossaryentry{efectivetaxrate}%
+{%
+name={Effective Tax Rate},%
+sort={Effective Tax Rate},%
+type={main},%
+first={Effective Tax Rate},%
+firstplural={Effective Tax Rates},%
+text={Effective Tax Rate},%
+plural={Effective Tax Rates},%
+description={Tasa fiscal efectiva},%
+descriptionplural={Tasa fiscal efectiva},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{enterprisevalue}{}%
+{%
+\gls@defglossaryentry{enterprisevalue}%
+{%
+name={Enterprise value},%
+sort={Enterprise value},%
+type={main},%
+first={Enterprise value},%
+firstplural={Enterprise values},%
+text={Enterprise value},%
+plural={Enterprise values},%
+description={Valor de la empresa},%
+descriptionplural={Valor de la empresa},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{equityvalue}{}%
+{%
+\gls@defglossaryentry{equityvalue}%
+{%
+name={Equity value},%
+sort={Equity value},%
+type={main},%
+first={Equity value},%
+firstplural={Equity values},%
+text={Equity value},%
+plural={Equity values},%
+description={Valor del capital accionario},%
+descriptionplural={Valor del capital accionario},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{exitmultiple}{}%
+{%
+\gls@defglossaryentry{exitmultiple}%
+{%
+name={Exit multiple},%
+sort={Exit multiple},%
+type={main},%
+first={Exit multiple},%
+firstplural={Exit multiples},%
+text={Exit multiple},%
+plural={Exit multiples},%
+description={M\'ultiplo de salida},%
+descriptionplural={M\'ultiplo de salida},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{expdebt}{}%
+{%
+\gls@defglossaryentry{expdebt}%
+{%
+name={Explicit Debt},%
+sort={Explicit Debt},%
+type={main},%
+first={Explicit Debt},%
+firstplural={Explicit Debts},%
+text={Explicit Debt},%
+plural={Explicit Debts},%
+description={Deuda expl\'icita},%
+descriptionplural={Deuda expl\'icita},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{fairvalue}{}%
+{%
+\gls@defglossaryentry{fairvalue}%
+{%
+name={Fair Value},%
+sort={Fair Value},%
+type={main},%
+first={Fair Value},%
+firstplural={Fair Values},%
+text={Fair Value},%
+plural={Fair Values},%
+description={Valor razonable o valor justo de mercado},%
+descriptionplural={Valor razonable o valor justo de mercado},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{firmvalue}{}%
+{%
+\gls@defglossaryentry{firmvalue}%
+{%
+name={Firm Value},%
+sort={Firm Value},%
+type={main},%
+first={Firm Value},%
+firstplural={Firm Values},%
+text={Firm Value},%
+plural={Firm Values},%
+description={Valor de la firma o empresa},%
+descriptionplural={Valor de la firma o empresa},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{growthrate}{}%
+{%
+\gls@defglossaryentry{growthrate}%
+{%
+name={Growth Rate},%
+sort={Growth Rate},%
+type={main},%
+first={Growth Rate},%
+firstplural={Growth Rates},%
+text={Growth Rate},%
+plural={Growth Rates},%
+description={Tasa de crecimiento de ingresos netos},%
+descriptionplural={Tasa de crecimiento de ingresos netos},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{incomestatement}{}%
+{%
+\gls@defglossaryentry{incomestatement}%
+{%
+name={Income Statement},%
+sort={Income Statement},%
+type={main},%
+first={Income Statement},%
+firstplural={Income Statements},%
+text={Income Statement},%
+plural={Income Statements},%
+description={Estado de Resultados},%
+descriptionplural={Estado de Resultados},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{investmentcapital}{}%
+{%
+\gls@defglossaryentry{investmentcapital}%
+{%
+name={Investment Capital},%
+sort={Investment Capital},%
+type={main},%
+first={Investment Capital},%
+firstplural={Investment Capitals},%
+text={Investment Capital},%
+plural={Investment Capitals},%
+description={Capital Invertido (IC)},%
+descriptionplural={Capital Invertido (IC)},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{leveredbeta}{}%
+{%
+\gls@defglossaryentry{leveredbeta}%
+{%
+name={beta apalancada},%
+sort={beta apalancada},%
+type={main},%
+first={beta apalancada},%
+firstplural={betas apalancadas},%
+text={beta apalancada},%
+plural={betas apalancadas},%
+description={Levered beta},%
+descriptionplural={Levered beta},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{marketaproach}{}%
+{%
+\gls@defglossaryentry{marketaproach}%
+{%
+name={Market approach},%
+sort={Market approach},%
+type={main},%
+first={Market approach},%
+firstplural={Market approachs},%
+text={Market approach},%
+plural={Market approachs},%
+description={Enfoque de mercado},%
+descriptionplural={Enfoque de mercado},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{netdebt}{}%
+{%
+\gls@defglossaryentry{netdebt}%
+{%
+name={Net Debt},%
+sort={Net Debt},%
+type={main},%
+first={Net Debt},%
+firstplural={Net Debts},%
+text={Net Debt},%
+plural={Net Debts},%
+description={Deuda neta},%
+descriptionplural={Deuda neta},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nopat}{}%
+{%
+\gls@defglossaryentry{nopat}%
+{%
+name={NOPAT},%
+sort={NOPAT},%
+type={main},%
+first={NOPAT},%
+firstplural={NOPATs},%
+text={NOPAT},%
+plural={NOPATs},%
+description={Flujo de Operaci\'on Neto},%
+descriptionplural={Flujo de Operaci\'on Neto},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{projectvaluation}{}%
+{%
+\gls@defglossaryentry{projectvaluation}%
+{%
+name={Project Valuation},%
+sort={Project Valuation},%
+type={main},%
+first={Project Valuation},%
+firstplural={Project Valuations},%
+text={Project Valuation},%
+plural={Project Valuations},%
+description={Valor razonable del proyecto de inversi\'on},%
+descriptionplural={Valor razonable del proyecto de inversi\'on},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{riskfreerate}{}%
+{%
+\gls@defglossaryentry{riskfreerate}%
+{%
+name={Risk Free Rate},%
+sort={Risk Free Rate},%
+type={main},%
+first={Risk Free Rate},%
+firstplural={Risk Free Rates},%
+text={Risk Free Rate},%
+plural={Risk Free Rates},%
+description={Tasa Libre de Riesgo},%
+descriptionplural={Tasa Libre de Riesgo},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sizeprime}{}%
+{%
+\gls@defglossaryentry{sizeprime}%
+{%
+name={Size Prime},%
+sort={Size Prime},%
+type={main},%
+first={Size Prime},%
+firstplural={Size Primes},%
+text={Size Prime},%
+plural={Size Primes},%
+description={Prima por tama\~no},%
+descriptionplural={Prima por tama\~no},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{terminalvalue}{}%
+{%
+\gls@defglossaryentry{terminalvalue}%
+{%
+name={Terminal Value},%
+sort={Terminal Value},%
+type={main},%
+first={Terminal Value},%
+firstplural={Terminal Values},%
+text={Terminal Value},%
+plural={Terminal Values},%
+description={Valor terminal},%
+descriptionplural={Valor terminal},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{totaldebt}{}%
+{%
+\gls@defglossaryentry{totaldebt}%
+{%
+name={Total Debt},%
+sort={Total Debt},%
+type={main},%
+first={Total Debt},%
+firstplural={Total Debts},%
+text={Total Debt},%
+plural={Total Debts},%
+description={Deuda total},%
+descriptionplural={Deuda total},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{valuedrivers}{}%
+{%
+\gls@defglossaryentry{valuedrivers}%
+{%
+name={Value drivers},%
+sort={Value drivers},%
+type={main},%
+first={Value drivers},%
+firstplural={Value driverss},%
+text={Value drivers},%
+plural={Value driverss},%
+description={Elevadores de Valor},%
+descriptionplural={Elevadores de Valor},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%

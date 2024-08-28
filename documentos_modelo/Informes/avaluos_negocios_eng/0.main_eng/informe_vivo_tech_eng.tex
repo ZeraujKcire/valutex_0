@@ -1,0 +1,186 @@
+\documentclass[10pt,letter]{report}
+\usepackage{import}
+\import{../../../../sistema/}{rutas}
+\input{preambulo}
+\input{disenno}
+\input{0.parametros_informe}
+%\makenoidxglossaries
+
+%\import{\rutaValuatex/documentos_modelo/}{glosario}
+%\import{\rutaValuatex/documentos_modelo/}{acronimos}
+\input{../capitulo_3_eng/9.3.glosario}
+\input{../capitulo_3_eng/9.2.acronimos}
+
+\usepackage{pdfpages}
+
+\renewcommand{\espacio}[1]{\vspace{#1}\begin{center}\textit{[BLANK SPACE]}\end{center}\newpage}
+
+\begin{document}
+
+% Renombrar sección a inciso
+\def\sectionautorefname{section}
+\def\subsectionautorefname{section}
+\def\subsubsectionautorefname{section}
+
+
+\thispagestyle{plain}
+\NoBgThispage
+\includepdf[pages=-]{../0.portadas_eng/portada}
+
+%-------------------------Índice-------------------------------
+\newpage
+\setcounter{page}{1}
+\thispagestyle{fancy}
+\tableofcontents
+
+\newpage
+
+
+\chapter{BACKGROUND.}\label{cap:1}
+\thispagestyle{fancy}
+%--------------------Datos del Valuador------------------
+\section{EXPERT APPRAISER INFORMATION}\label{sec:a}
+\input{../capitulo_1_eng/a.datos_perito_unico}
+%------------------Datos del solicitante-----------------
+\section{APPLICANT INFORMATION}\label{sec:b}
+\input{../capitulo_1_eng/b.datos_solicitante}
+
+\espacio{3cm}
+
+\chapter{DATA OF THE ASSET SUBJECT TO VALUATION}\label{cap:2}
+\thispagestyle{fancy}
+\setcounter{section}{2}
+%-----------------Datos del Propietario----------------
+\section{OWNER'S INFORMATION}\label{sec:c}
+\input{../capitulo_2_eng/c.activo_intangible}
+%-----------------Tipo de servicio de valuación------
+\section{TYPE OF VALUATION SERVICE}\label{sec:d}
+\input{../capitulo_2_eng/d.servicio_valuacion}
+
+%-----------------Vigencia-----------------------------
+\section{REPORT VALIDITY}\label{sec:e}
+\input{../capitulo_2_eng/e.vigencia}
+
+
+%---------------Descripción de los bienes Sujetos de valuación-----------
+\section{DESCRIPTION OF THE VALUATION SUBJECT}\label{sec:f}
+\input{../capitulo_2_eng/f.activo_intangible}
+
+%-----------------Ubicación del bien sujeto de valuavión
+\section{LOCATION OF THE VALUATION SUBJECT}\label{sec:g}
+\input{../capitulo_2_eng/g.activo_intangible}
+%-----------------Propósito----------------------
+\section{VALUATION PURPOSE}\label{sec:h}
+\input{../capitulo_2_eng/h.activo_intangible}
+%------------------Uso de la valuación---------------
+\section{VALUATION USE}\label{sec:i}
+\input{../capitulo_2_eng/i.uso_valuacion}
+
+\newpage
+
+\chapter{LEGAL BASIS AND PRELIMINARY CONSIDERATIONS.}\label{cap:3}
+\thispagestyle{fancy}
+\setcounter{section}{9}
+
+\section*{LEGAL BASIS.}\label{sec:juridico}
+The present analysis, as well as the opinions and conclusions of the undersigned appraiser, were developed in accordance with Article 6, Section II of the Federal Public Brokerage Law (LFCP), Article 56 bis of its regulations, international valuation standards, and the theoretical framework of corporate finance.\\
+
+The following are various legal bases in Mexican regulations related to valuation reports:\\
+
+\input{../capitulo_3_eng/1.codigo_comercio}
+\input{../capitulo_3_eng/2.ley_federal_correduria_publica}
+\input{../capitulo_3_eng/3.reglamento_lfcp_56_bis}
+\input{../capitulo_3_eng/4.acuerdo}
+%---------------Consideraciones previas a la valuaci\'on--------------------
+\section{PRIOR CONSIDERATIONS FOR VALUATION}\label{sec:j}
+
+	\subsection{Conditions, Restrictions, and Limitations of the Report:}
+\input{../capitulo_3_eng/6.condiciones_restricciones_activo_intangible}
+\input{../capitulo_3_eng/7.2.definiciones_y_conceptos}
+\input{../capitulo_3_eng/8.enfoques_valuacion}
+\newpage
+\input{../capitulo_3_eng/9.1.lista_acronimos}
+\input{../capitulo_3_eng/9.2.acronimos}
+\input{../capitulo_3_eng/9.3.glosario}
+	
+\chapter{METHODOLOGY EMPLOYED}\label{cap:4}
+\thispagestyle{fancy}
+
+The valuation of the asset mentioned in \autoref{cap:2}  \autoref{sec:f} of this report was carried out, which is explained below:
+
+%-----------------------Descripci\'on de los enfoques de valuaci\'on aplicados-------------
+\setcounter{section}{10}
+\section{DESCRPTION OF APPLIED VALUATION APPROACHES.}\label{sec:k}
+
+\renewcommand\thefigure{\arabic{figure}} 
+
+\input{../capitulo_4_eng/1.4.estimacion_valor_razonable_capital_accionario.tex}
+\input{../capitulo_4_eng/2.5.valor_oportunidades_internas.tex}
+\input{../capitulo_4_eng/3.7.metodologias_de_valuacion_negocios.tex}
+\input{../capitulo_4_eng/4.1.marco_estimacion_wacc.tex}
+\input{../capitulo_4_eng/4.5.CAPM.tex}
+\input{../capitulo_4_eng/6.1.PEERS.tex}
+\input{../capitulo_4_eng/capitalizacion_directa.tex}
+
+\espacio{4cm}
+%=================Semblanza======================
+\addcontentsline{toc}{section}{Semblanza y Análisis de Industria.}
+\includepdf[pages=-,pagecommand={\thispagestyle{fancy}},height=\textheight]{../0.semblanza_eng/semblanza}
+
+
+\chapter{DEVELOPMENT OF THE APPRAISAL.}\label{cap:5}
+\thispagestyle{fancy}
+
+%-----------------------Desarrollo del avalúo en la especie------------------------------------
+\setcounter{section}{11}
+
+\subsection{DEVELOPMENT OF THE VALUATION.}\label{sec:k2}
+
+%\subsubsection{An\'alisis Financiero}
+
+
+\input{../capitulo_5_eng/k.2.1.analisis_financiero.tex}
+\input{../capitulo_5_eng/k.2.4.estimacion_tasa_ke.tex}
+\input{../capitulo_5_eng/k.2.6.desarrollo_peers.tex}
+\input{../capitulo_5_eng/k.2.14.capitalizacion_directa.tex}
+\input{../capitulo_5_eng/k.3.1.valor_ponderado_firma.tex}
+\input{../capitulo_5_eng/k.3.2.valor_capital_accionario.tex}
+\input{../capitulo_5_eng/k.3.3.valor_razonable_por_accion.tex}
+%-----------------------FECHA DE INSPECCIÓN---------------------
+\section{INSPECTION DATE}\label{sec:l}
+Not applicable.
+
+%------------------------FECHA DE VALORES------------------------
+\section{REFERENCE DATE FOR VALUE}\label{sec:m}
+\fechaValores.
+
+%-----------------------FECHA DEL INFORME-----------------------
+\section{VALUATION REPORT DATE}\label{sec:n}
+\fechaInforme.
+
+%----------------------FUENTES DE INFORMACIÓN--------------
+\section{SOURCES OF INFORMATION}\label{sec:nn}
+\input{../capitulo_6_eng/nn.fuentes_de_informacion.tex}
+%-----------------------CONSIDERACIONES PREVIAS A LA CONCLUSI\'ON------------------
+\section{PRELIMINARY CONSIDERATIONS BEFORE CONCLUSION}\label{sec:o}
+\input{../capitulo_6_eng/o.previas_conclusion.tex}
+
+\chapter{CONCLUSIONS.}\label{cap:6}
+\thispagestyle{fancy}
+%-----------------------CONCLUSIÓN DE LA VALUACIÓN-----------------------
+\setcounter{section}{16}
+\section{VALUATION CONCLUSION.}\label{sec:p}
+\input{../capitulo_6_eng/p.conclusiones_capital_accionario.tex}
+\input{../capitulo_6_eng/p.firma_1.tex}
+%----------------------REPORTE FOTOGRAFICO------------------------------
+\section{PHOTOGRAPHIC REPORT}\label{sec:q}
+Not applicable.
+%---------------------ANEXOS-------------------------------------------------------- 
+\section{APPENDIX}\label{sec:r}
+
+Appendix 1.- Corporate Information. Appendix 2.- Financial Information.
+
+
+
+\label{lastpage}
+\end{document}

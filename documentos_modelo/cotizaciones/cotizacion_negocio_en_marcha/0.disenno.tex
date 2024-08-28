@@ -1,0 +1,55 @@
+\usepackage{textcomp}
+\decimalpoint
+%------------Diseño de página --------------------------------
+\usepackage[centering, letterpaper,margin=2cm,top=1cm, headsep=24pt, headheight=2cm,includehead, includefoot]{geometry}
+
+%------------Colores----------------------
+
+\definecolor{principal}{RGB}{0, 53, 73}
+\definecolor{secundario}{RGB}{43, 82, 96}
+\definecolor{terciario}{RGB}{43,82,96}
+
+%--------------Hipervinculos en color, ligas-azul, archivos-magenta, url-azul----------------
+\hypersetup{
+    colorlinks=true,
+    linkcolor=secundario,
+    filecolor=magenta,      
+    urlcolor=blue}
+
+%-------------Encabezado---------------------
+\pagestyle{fancy}
+\fancyhf{}
+
+\chead{\includegraphics[width=8cm]{\rutaImagenes/logo_valuami_fondo_blanco}}
+
+%--------------Pie de página------------------
+\cfoot{\textbf{\textcolor{principal}{\footnotesize{VALUAMI\tiny\textregistered}}}\\ \scriptsize{\textit{Amargura 50, Interior 7 y 8, Antigua Granada Parques de la Herradura.\\ Huixquilucan, Estado de M\'exico. CP 52786.\\ Tel. 52 94 76 80 / 55 89 96 34\\ \url{www.ami-mexico.com/valuami}}}}
+
+%------------Títulos de seccion y subseccion--------------
+
+
+
+%\renewcommand \thechapter {\Roman{chapter}}
+\renewcommand \thesection {\Roman{section}}
+%\renewcommand \thesubsection {\thesection.\arabic{subsection}}
+%\renewcommand \thesubsubsection {\thesection.\arabic{subsection}.\arabic{subsubsection}}
+
+\titleformat{\section}[hang]{\color{gray}\huge\bfseries}{\thesection.}{1em}{} 
+
+%\chapterfont{\color{principal}}
+\sectionfont{\color{principal}}
+%\subsectionfont{\color{secundario}}
+%\subsubsectionfont{\color{terciario}}
+
+%------------------Profundidad del índice---------------------------
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+
+
+
+%------------------Marca de agua---------------
+
+\backgroundsetup{angle=0, contents={\includegraphics[width=8cm]{\rutaImagenes/logo_valuami_fondo_blanco}},opacity=.3, scale=1}
+

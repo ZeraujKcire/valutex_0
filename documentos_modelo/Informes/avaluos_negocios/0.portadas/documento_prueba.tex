@@ -1,0 +1,46 @@
+\documentclass[10pt,letter]{report}
+\usepackage{stackengine}
+\usepackage{import}
+\import{../../../../sistema/}{rutas}
+\input{../0.main/0.preambulo1}
+\input{../0.main/0.disenno_informe_valuami}
+%\input{0.parametros_informe}
+\usepackage{pdfpages}
+
+\newcommand{\tipodeavaluo}{Valuaci\'on financiera\\ de Capital Intangible}
+\newcommand{\logovaluami}{\includegraphics[width=3cm]{\rutaImagenes/isotipo_valuami.pdf}}
+\newcommand{\imagenPortada}{\includegraphics[width=4cm]{../0.imagenes/logo_1}}
+
+
+
+\begin{document}
+
+\thispagestyle{plain}
+\newgeometry{top=0pt, bottom=0pt, left=0pt, right=0pt}
+\NoBgThispage 
+
+\begin{figure}[H]
+\centering
+\stackinset{l}{ 1cm}{c}{4cm}{\logovaluami}{%
+\stackinset{l}{ 5cm}{c}{4cm}{\textcolor{principal}{\Huge \textsf{\textbf{ Valuaci\'on Financiera}}}}{%
+\stackinset{l}{ 5cm}{c}{3cm}{\textcolor{principal}{\Huge \textsf{\textbf{ de Capital Intangible}}}}{%
+\stackinset{l}{ 4cm}{c}{0cm}{\textcolor{gray}{\textbf{\textsf{\large Dicatmen de Valuaci\'on:}}}}{%
+\stackinset{r}{ 4cm}{c}{-3cm}{\imagenPortada}{%
+\stackinset{l}{ 4cm}{b}{7cm}{\textsf{Valor Razonable de Licencias de Marca como Activos Intangibles}}{%
+\stackinset{l}{ 4cm}{b}{6cm}{\textcolor{gray}{\textsf{Solicitante: N\'omina Apoyo S.A.P.I de C.V. SOFOM ENR.}}}{%
+\stackinset{l}{ 4cm}{b}{4cm}{\textcolor{principal}{\textsf{}\textbf{\LARGE Diego M. Perezcano Beltr\'an}}}{%
+\stackinset{l}{ 4cm}{b}{3.5cm}{\textsf{Corredor P\'ublico No. 2 Plaza del Estado de M\'exico}}{%
+\stackinset{l}{ 4cm}{b}{3cm}{\textsf{Especialista en Valuaci\'on con orientaci\'on en Negocios en Marcha.}}{%
+\stackinset{l}{ 4cm}{b}{2.5cm}{\textsf{Presidente del Comit\'e de Valuaci\'on del CNCPM}}{%
+\stackinset{r}{ 4cm}{b}{2.5cm}{\includegraphics[width=3cm]{\rutaImagenes/logo_valuami_fondo_blanco}}{
+\stackinset{r}{ 4cm}{b}{3cm}{\includegraphics[width=3cm]{\rutaImagenes/logo_valuami_fondo_blanco}}{
+\includegraphics[height=\textheight]{portada_cp2_valuami}%
+}}}}}}}}}}}}}
+\end{figure}
+
+
+
+
+
+
+\end{document}

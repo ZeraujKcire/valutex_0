@@ -1,0 +1,71 @@
+\usepackage{textcomp}
+
+%------------Diseño de página --------------------------------
+\usepackage[centering, letterpaper,margin=2cm,top=1cm, headsep=24pt, headheight=2cm,includehead, includefoot]{geometry}
+
+%------------Colores----------------------
+
+\definecolor{principal}{RGB}{2, 74, 115}
+\definecolor{secundario}{RGB}{43, 82, 96}
+\definecolor{terciario}{RGB}{43,82,96}
+
+%--------------Hipervinculos en color, ligas-azul, archivos-magenta, url-azul----------------
+\hypersetup{
+    colorlinks=true,
+    linkcolor=secundario,
+    filecolor=magenta,      
+    urlcolor=blue}
+
+%-------------Encabezado---------------------
+\pagestyle{fancy}
+\fancyhf{}
+
+\chead{\begin{tabular}{m{17.2cm}}
+\rowcolor{principal}
+\includegraphics[width=5cm]{\rutaImagenes/logo_corr_12_top.pdf}\\
+\end{tabular}
+}
+
+
+%--------------Pie de página------------------
+\cfoot{\textbf{\textcolor{principal}{\footnotesize{\textbf{Corredur\'ia P\'ublica N\'umero 12 de la Ciudad de M\'erida}}}}\\ \scriptsize{\textit{Calle 31 No. 107 Local 6 por 22 y 24, Col. M\'exico\\ M\'erida, Yucat\'an, C.P. 97135. Tel. (999) 9272969.}}}
+\rfoot{\footnotesize{\thepage\hspace{3pt}de \pageref{lastpage}}}
+
+%------------Títulos de seccionmy subseccion--------------
+\renewcommand \thechapter {\Roman{chapter}}
+\renewcommand \thesection {\Alph{section}}
+\renewcommand \thesubsection {\thesection.\arabic{subsection}}
+\renewcommand \thesubsubsection {\thesection.\arabic{subsection}.\arabic{subsubsection}}
+
+\titleformat{\section}[hang]{\color{gray}\huge\bfseries}{\thesection.}{1em}{} 
+
+\chapterfont{\color{principal}}
+\sectionfont{\color{principal}}
+\subsectionfont{\color{secundario}}
+\subsubsectionfont{\color{terciario}}
+
+\titleformat{\chapter}[display]{\normalfont\Large\filcenter\sffamily}
+{\titlerule[1pt]%
+\vspace{1pt}%
+\titlerule
+\vspace{1pc}%
+\LARGE\MakeUppercase{\chaptertitlename} \thechapter}
+{1pc}
+{\titlerule
+\vspace{1pc}%
+\Huge}
+\titlespacing{\chapter}{0pt}{*-8}{*1.5}
+
+%------------------Profundidad del índice---------------------------
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+
+%------------Márgenes--------------------
+
+%\marginsize{1cm}{2cm}{1cm}{2cm}
+
+%------------------Marca de agua---------------
+
+\backgroundsetup{angle=0, contents={\includegraphics[width=4cm]{\rutaImagenes/logo_corr_12}},opacity=0.1, scale=2}

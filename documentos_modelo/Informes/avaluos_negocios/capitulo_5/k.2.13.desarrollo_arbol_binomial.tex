@@ -1,0 +1,26 @@
+\subsubsection{Valuación de Opciones con el método del Arbol Binomial.}
+
+\textcolor{principal}{Premisas del modelo.} Se llevo a cabo el método de valuación de opciones por árbol binomial suponiendo que las acciones restringidas se pueden considerar como opciones de tipo \textit{Put} Americano,  en vista de que el valor de estas está sujeto  a la posibilidad de poder comercializarlas en caso de que se liberen eventualmente, y dado que las fechas de liberación se distribuyen a lo largo del tiempo.\\
+
+Dada la naturaleza de las acciones restringidas, se llevaron a cabo dos valuaciones, una ara las acciones de rendimiento y otra para las acciones de tiempo\\
+
+Para llevar a cabo el método del árbol binomial para las acciones de rendimiento, se tomaron en cuenta las siguientes premisas: i) Precio Spot \$52.22 USD, ii) Precio Strike: \$52.22, iii) Volatilidad anual: 70\%, iV) Número de pasos del árbol: 2, v) Número de años: 2, vi) $u=2.014$, vii) $d= 0.5$, viii) $p=0.39$,  ix) Tasa libre de riesgo instantánea: 8.34\%, obteniendo el siguiente resultado:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{../0.imagenes/opciones_1}
+\end{figure}
+
+Para el caso de las acciones de tiempo, se tomaron en cuenta las siguientes premisas: i) Precio Spot \$52.22 USD, ii) Precio Strike: \$52.22, iii) Volatilidad anual: 70\%, iV) Número de pasos del árbol: 48, v) Número de años: 4, vi) $u=2.014$, vii) $d= 0.5$, viii) $p=0.39$,  ix) Tasa libre de riesgo instantánea: 8.34\%, obteniendo el siguiente resultado:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{../0.imagenes/opciones_2}
+\end{figure}
+
+Finalmente, a partir de lo anterior, y considerando un demérito por falta de liquidez, el valor razonable de las acciones restringidas queda como sigue:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{../0.imagenes/valor_opciones}
+\end{figure}

@@ -1,0 +1,67 @@
+\usepackage{textcomp}
+\decimalpoint
+%------------Diseño de página --------------------------------
+\usepackage[centering, letterpaper,margin=2cm,top=1cm, headsep=24pt, headheight=2cm,includehead, includefoot]{geometry}
+
+%------------Colores----------------------
+
+\definecolor{principal}{RGB}{4, 1, 55}
+\definecolor{secundario}{RGB}{65, 173, 195}
+\definecolor{terciario}{RGB}{40,133,153}
+
+%--------------Hipervinculos en color, ligas-azul, archivos-magenta, url-azul----------------
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue}
+
+%-------------Encabezado---------------------
+\pagestyle{fancy}
+\fancyhf{}
+
+\chead{\includegraphics[width=4cm]{\rutaImagenes/logo_CP81_oficial}}
+
+%--------------Pie de página------------------
+\cfoot{\textcolor{principal}{\rule{17cm}{.4pt}\\Jos\'e Ram\'on Clark Guzm\'an, Corredor P\'ublico 81, Plaza de la Ciudad de M\'exico\\ }Paseo de las Palmas 731, Of. 202, Lomas de Chapultepec, 11000, Miguel Hidalgo, CDMX, M\'exico\\ Tels. +52.(55)6728-8521, +52.(55)6728-9953}
+
+%------------Títulos de seccionmy subseccion--------------
+\renewcommand \thechapter {\Roman{chapter}}
+\renewcommand \thesection {\Alph{section}}
+\renewcommand \thesubsection {\thesection.\arabic{subsection}}
+\renewcommand \thesubsubsection {\thesection.\arabic{subsection}.\arabic{subsubsection}}
+
+\titleformat{\section}[hang]{\color{gray}\huge\bfseries}{\thesection.}{1em}{} 
+
+\chapterfont{\color{principal}}
+\sectionfont{\color{principal}}
+\subsectionfont{\color{secundario}}
+\subsubsectionfont{\color{terciario}}
+
+\titleformat{\chapter}[display]{\normalfont\Large\filcenter\sffamily}
+{\titlerule[1pt]%
+\vspace{1pt}%
+\titlerule
+\vspace{1pc}%
+\LARGE\MakeUppercase{\chaptertitlename} \thechapter}
+{1pc}
+{\titlerule
+\vspace{1pc}%
+\Huge}
+\titlespacing{\chapter}{0pt}{*-8}{*1.5}
+
+%------------------Profundidad del índice---------------------------
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+
+%------------Márgenes--------------------
+\usepackage[letterpaper, headsep=50pt]{geometry}
+\marginsize{2cm}{2cm}{1cm}{3cm}
+
+%------------------Marca de agua---------------
+
+\backgroundsetup{angle=0, contents={\includegraphics[width=4cm]{\rutaImagenes/logo_cp81_oficial}},opacity=.1, scale=3}
+
+

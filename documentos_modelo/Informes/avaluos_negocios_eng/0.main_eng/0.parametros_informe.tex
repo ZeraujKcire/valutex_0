@@ -1,0 +1,163 @@
+
+%----------------------------Generales----------------------------
+\newcommand{\tipoAvaluo}{Equity Capital}
+\newcommand{\bienesValuados}{capital accionario de la sociedad \empresaSolicitante}%nombre del bien que se va a valuar
+\newcommand{\lugarInforme}{the State of Mexico}
+
+%--------------------Fechas---------------------------
+\newcommand{\diainforme}{25} %dia del informe
+\newcommand{\mesinforme}{3} %mes del informe
+\newcommand{\annoinforme}{2024} %año del informe
+
+\newcommand{\diavalores}{31} %dia de valores
+\newcommand{\mesvalores}{12} %mes de valores
+\newcommand{\annovalores}{2023} %año de valores
+
+\newcommand{\diainspeccion}{1} %dia de inspeccion
+\newcommand{\mesinspeccion}{1} %mes de inspeccion
+\newcommand{\annoinspeccion}{2022} %año de inspeccion
+
+\newcommand{\fechaInforme}{\monthname[\mesinforme]{} \diainforme{}, \annoinforme}
+\newcommand{\fechaValores}{\monthname[\mesvalores]{} \diavalores{}, \annovalores}
+\newcommand{\fechaValoresCorto}{\mesvalores/\diavalores/\annovalores}
+\newcommand{\fechaInspeccion}{\monthname[\mesinspeccion]{} \diainspeccion{}, \annoinspeccion}
+
+%----------------------------Perito Valuador---------------------
+\newcommand{\peritoValuador}{DiegoPerezcano_cp2}
+\import{\rutaValuatex/documentos_modelo/peritos/peritos/}{\peritoValuador}
+
+%------------------------Perito Auxiliar-------------------
+\newcommand{\peritoAuxiliar}{n/a}
+\ifthenelse{\equal{\peritoAuxiliar}{n/a}}{ }{\import{\rutaValuatex/documentos_modelo/peritos/auxiliares/}{\peritoAuxiliar}}
+
+%--------------Datos del solicitante-------------
+\newcommand{\empresaSolicitante}{VIVO TECH, S.A. de C.V.}
+\newcommand{\empresaCorto}{VIVO TECH}
+\newcommand{\rfcEmpresa}{VTE210820IM1}
+\newcommand{\personaSolicitante}{Cal Li}
+\newcommand{\caracterSolicitante}{Sole Administrator}
+
+%--------------Datos del propietario-------------
+\newcommand{\nombrePropietario}{\inserta}
+
+%-------------Vigencia----------------------------
+\newcommand{\vigenciaInforme}{1(One) year}
+\newcommand{\notaVigencia}{si}
+
+
+%---------------Ubicacion del bien sujeto de valuaci\'on
+\newcommand{\descripcionBien}{Equity Capital of \empresaSolicitante}%en que consiste el bien que se va a valuar.
+\newcommand{\ubicacionBien}{Mexico City}
+\newcommand{\rfcBien}{\inserta}
+
+%------------Uso de la valuación---------------
+\newcommand{\usoAvaluo}{financial and tax purposes}
+%--------------Desarrollo del avalúo en la especie-------------------
+\newcommand{\EFde}{2021}
+\newcommand{\EFhasta}{2023}
+\newcommand{\EFdeHasta}{2021 to 2023}
+
+%----------------Parámetros Peers--------------------------
+%__________Multiplo________________
+\newcommand{\peersa}{Enterprise Value to Sales}
+\newcommand{\peersb}{Enterprise Value to EBIT}
+\newcommand{\peersc}{Ratio of Firm Value to EBITDA}
+\newcommand{\peersd}{Ratio of Offer Price to Book Value}
+\newcommand{\peerse}{Ratio of Offer Price to Book Value}
+
+%____________x veces________
+\newcommand{\peersaTo}{Ventas}
+\newcommand{\peersbTo}{EBIT}
+\newcommand{\peerscTo}{EBITDA}
+\newcommand{\peersdTo}{Valor en libros}
+\newcommand{\peerseTo}{Valor en libros}
+
+%___________Valor Múltiplo____________
+\newcommand{\peersaMult}{0.9518}
+\newcommand{\peersbMult}{9.2371}
+\newcommand{\peerscMult}{6.24}
+\newcommand{\peersdMult}{1.52}
+\newcommand{\peerseMult}{1.52}
+
+%___________Estadístico____________
+
+\newcommand{\peersaEst}{Mediana}
+\newcommand{\peersbEst}{Mediana}
+\newcommand{\peerscEst}{Mediana}
+\newcommand{\peersdEst}{Mediana}
+\newcommand{\peerseEst}{Mediana}
+
+%============ WACC ===============
+%---------------------- RF ------------------------------
+\newcommand{\rfBase}{bono mexicano a 10 años}
+\newcommand{\rfValor}{9.10}
+
+%---------------------- Beta ----------------------------
+\newcommand{\valorBeta}{1.29}
+\newcommand{\betaDesapalancada}{1.0568}
+\newcommand{\betaReapalancada}{1.5149}
+%-----------------------Premio de Mercado (ERP)----------------------------
+\newcommand{\mercadoAccionario}{mexicano}%mexicano o americano
+\newcommand{\erpValor}{3.50}
+
+%----------------------Prima de tamaño-----------------
+\newcommand{\sizePrime}{5.01}
+
+%-----------------------Costo de Capital (ke)--------------------
+\newcommand{\keValor}{18.60}
+
+%----------------------Costo de deuda (Kd)-----------------------
+\newcommand{\kdValor}{0}
+
+%----------------------- Valor Wacc----------------------------
+\newcommand{\waccValor}{18.60}
+
+%=============== DCF ======================
+\newcommand{\periodoProyeccion}{2024 a 2028}
+\newcommand{\proyCagr}{18.12}
+\newcommand{\proyEbitMargin}{7.15}
+
+\newcommand{\tasaFiscal}{30.00}
+\newcommand{\reinvestmentRate}{46.70}
+
+
+%============== RFR (Relief from royalties)==========
+\newcommand{\tasaRegalias}{2.00}
+\newcommand{\estadisticoTasaRegalias}{Percentil 25}
+
+
+%============== CIFRAS ======================
+\newcommand{\valorDCF}{12,895,851}
+\newcommand{\valorDCFLetra}{Doce millones ochocientos noventa y cinco mil ochocientos cincuenta y uno} 
+
+\newcommand{\valorPEERS}{0}
+\newcommand{\valorPEERSLetra}{cero} 
+
+\newcommand{\valorFirma}{19,863,282}
+\newcommand{\valorFirmaLetra}{Nineteen million eight hundred sixty-three thousand two hundred eighty-two} 
+
+\newcommand{\valorCapital}{16,409,631}
+\newcommand{\valorCapitalLetra}{Sixteen million four hundred nine thousand six hundred thirty-one} 
+
+\newcommand{\valorRFR}{0}
+\newcommand{\valorRFRLetra}{cero} 
+
+\newcommand{\valorResidual}{0}
+\newcommand{\valorResidualLetra}{cero} 
+
+\newcommand{\valorActivoIntangible}{0}
+\newcommand{\valorActivoIntangibleLetra}{cero} 
+
+\newcommand{\valorCapitalIntangible}{0}
+\newcommand{\valorCApitalIntangibleLetra}{cero} 
+
+\newcommand{\moneda}{pesos}
+\newcommand{\monedaCode}{MXN}
+
+
+
+
+
+
+
+
